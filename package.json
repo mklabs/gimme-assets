@@ -1,0 +1,18 @@
+{
+  "author": "mklabs",
+  "name": "gimme-assets",
+  "description": "Asset manager for cdnjs libs",
+  "version": "0.0.1",
+  "engines": {
+    "node": "> 0.4"
+  },
+  "dependencies": {
+    "nopt": "~1.0.10"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "postinstall": "./scripts/install.js"
+  }
+}
