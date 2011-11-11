@@ -27,10 +27,10 @@ Or
 
       Commands:
         completion              setup tab completion
-        docs <name>             tries to guess at the likely location of a package's documentation URL, and then tries to open it using the --browser config param.
+        docs <name>             guess the likely location of a package's documentation URL, and then tries to open it using the --browser config param.
         install <name ...>      installs the lib <name ...>
         list                    list available package
-        readme <name>           guess at the likely location of a package's readme, and then tries to generate a manpage using ronnjs
+        readme <name>           if supplied a package name, then show the appropriate documentation manpage generated from readme file
 
       Options:
 
