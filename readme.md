@@ -40,6 +40,12 @@ completion` alone output the completion bash script, `gimme completion
 install` is the equivalent of running `gimme completion >> ~/.bashrc
 (or ~/.zshrc)`
 
+#### gimme docs
+
+    gimme docs <name>
+
+This command tries to guess at the likely location of an asset's documentation URL, and then tries to open it using the --browser config param.
+
 
 ### todos
 
@@ -62,15 +68,10 @@ gimme libs (defaults in `./js/libs`)
     gimme help
     gimme help <command>
 
-#### gimme browse
 
-    gimme browse <name>
+#### gimme readme
 
-This command tries to guess at the likely location of an asset's documentation URL, and then tries to open it using the --browser config param.
-
-#### gimme docs
-
-    gimme docs <name>
+    gimme readme <name>
 
 This command tries to guess at the likely location of a repository's
 readme, and then tries to generate a manpage using [ronnjs](https://github.com/kapouer/ronnjs).
