@@ -3,7 +3,9 @@
 var fs = require('fs'),
   path = require('path'),
   nopt = require('nopt'),
-  logger = require('../lib/logger');
+  logger = require('../lib/logger'),
+  cmds = require('../lib/commands'),
+  known = Object.keys(cmds);
 
 var defs = {
   loglevel: ["silent","win","error","warn","info","verbose","silly"],
@@ -11,19 +13,6 @@ var defs = {
   help: Boolean,
   version: Boolean
 };
-
-// map over the `commands` dir, setup all commands as lazy-loaded getters and
-// return the cmd name in the `known` array.
-var cmds = {};
-var known = fs.readdirSync(path.join(__dirname, '..', 'lib', 'commands')).map(function(file) {
-  var command = file.replace(path.extname(file), '');
-
-  cmds.__defineGetter__(command, function() {
-    return require('../lib/commands/' + command);
-  });
-
-  return command;
-});
 
 // use nopt to parse cli options
 var opts = nopt(defs),
@@ -50,15 +39,15 @@ if(opts.help || cmd === 'help') return console.log([
   ''
 ].join('\n'));
 
-if(!~known.indexOf(cmd)) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
+if(!cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
 
 var start = +new Date;
-logger.debug('Running', cmd);
 cmds[cmd](opts, function(err) {
   if(err) return error(err);
   logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
 });
 
+// ## Helpers
 function error(err) {
   if(!err instanceof Error) err = new Error(err);
   var output = err.message || err.stack;

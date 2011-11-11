@@ -9,7 +9,8 @@
   "dependencies": {
     "nopt": "~1.0.10",
     "npm": "~1.0.105",
-    "semver": "~1.0.10"
+    "semver": "~1.0.10",
+    "tabtab": "https://github.com/mklabs/node-tabtab/tarball/master"
   },
   "directories": {
     "bin": "./bin"
