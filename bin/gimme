@@ -3,6 +3,7 @@
 var fs = require('fs'),
   path = require('path'),
   nopt = require('nopt'),
+  npm = require('npm'),
   logger = require('../lib/logger'),
   cmds = require('../lib/commands'),
   known = Object.keys(cmds);
@@ -42,14 +43,19 @@ if(opts.help || cmd === 'help') return console.log([
 if(!cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
 
 var start = +new Date;
-cmds[cmd](opts, function(err) {
+
+npm.load(opts, function(err) {
   if(err) return error(err);
-  logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
+
+  cmds[cmd](opts, function(err) {
+    if(err) return error(err);
+    logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
+  });
 });
 
 // ## Helpers
 function error(err) {
-  if(!err instanceof Error) err = new Error(err);
+  if(!(err instanceof Error)) err = new Error(err);
   var output = err.message || err.stack;
   output.split('\n').forEach(function(l) {
     logger.error(l);
