@@ -96,7 +96,7 @@ completion` alone output the completion bash script, `gimme completion
 install` is the equivalent of running `gimme completion >> ~/.bashrc
 (or ~/.zshrc)`
 
-#### gimme readme
+### gimme readme
 
     gimme readme <name>
 
@@ -104,7 +104,7 @@ This command tries to guess at the likely location of a repository's
 readme, and then tries to generate a manpage using [ronnjs](https://github.com/kapouer/ronnjs).
 
 
-#### gimme docs
+### gimme docs
 
     gimme docs <name>
 
@@ -150,6 +150,17 @@ Search available assets with optional list of tags.
 Install and concat files (all already minified) in the output directory,
 defaults to `./js/lib/:sha.scripts-concat.js` (where `:sha` is the file
 md5 hash).
+
+#### gimme add
+
+    gimme add <name> <url>
+
+Adds a new assets ressource to the local environment, then returned by
+`gimme list` and installable via `gimme install`.
+
+url could match a js/css/html ressource. The script should output then
+output in `js/libs`, `css`, or `./`.
+
 
 #### options
 
