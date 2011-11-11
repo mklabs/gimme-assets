@@ -12,6 +12,7 @@ var prefix = path.join(process.env.HOME, '.gimme-assets');
 // On package install, clone the cdnjs repo into ~/.gimme-assets/cdnjs
 
 // * todo: clone/pull if directory exists, instead of raw remove
+// * todo: validate each pacakge.json, edit version to be semver compliant if necessary (add a `.x` to versions like `1.0`)
 
 // Get the git http.proxy config, if set then use git over http, otherwise standard git clone.
 exec('git config --global http.proxy', function(err, stdout) {

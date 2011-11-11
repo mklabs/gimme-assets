@@ -7,7 +7,9 @@
     "node": "> 0.4"
   },
   "dependencies": {
-    "nopt": "~1.0.10"
+    "nopt": "~1.0.10",
+    "npm": "~1.0.105",
+    "semver": "~1.0.10"
   },
   "directories": {
     "bin": "./bin"
