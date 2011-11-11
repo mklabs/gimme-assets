@@ -18,6 +18,7 @@
     "bin": "./bin"
   },
   "scripts": {
-    "postinstall": "./scripts/install.js"
+    "postinstall": "./scripts/install.js && ./bin/gimme completion install",
+    "preuninstall": "./bin/gimme completion uninstall"
   }
 }
