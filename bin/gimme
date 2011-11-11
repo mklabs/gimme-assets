@@ -1,0 +1,83 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+  path = require('path'),
+  nopt = require('nopt'),
+  logger = require('../lib/logger');
+
+var defs = {
+  loglevel: ["silent","win","error","warn","info","verbose","silly"],
+  output: String,
+  help: Boolean,
+  version: Boolean
+};
+
+// map over the `commands` dir, setup all commands as lazy-loaded getters and
+// return the cmd name in the `known` array.
+var cmds = {};
+var known = fs.readdirSync(path.join(__dirname, '..', 'lib', 'commands')).map(function(file) {
+  var command = file.replace(path.extname(file), '');
+
+  cmds.__defineGetter__(command, function() {
+    return require('../lib/commands/' + command);
+  });
+
+  return command;
+});
+
+// use nopt to parse cli options
+var opts = nopt(defs),
+  remain = opts.argv.remain,
+  cmd = remain[0] || 'help';
+
+// output version (todo: use pkginfo here)
+if(opts.version) return console.log('v0.0.1');
+
+// output help and return if help flag or no command provided.
+if(opts.help || cmd === 'help') return console.log([
+  '',
+  '  Usage: gimme [command] [options]',
+  '',
+  '  Commands:',
+  helpCmds(),
+  '',
+  '  Options:',
+  '',
+  '    -o, --out <dir>          output directory defaulting to ./js/libs',
+  '    -l, --loglevel <level>   What level of logs to report',
+  '    -v, --version            output program version',
+  '    -h, --help               display help information',
+  ''
+].join('\n'));
+
+if(!~known.indexOf(cmd)) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
+
+var start = +new Date;
+logger.debug('Running', cmd);
+cmds[cmd](opts, function(err) {
+  if(err) return error(err);
+  logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
+});
+
+function error(err) {
+  if(!err instanceof Error) err = new Error(err);
+  var output = err.message || err.stack;
+  output.split('\n').forEach(function(l) {
+    logger.error(l);
+  });
+  process.exit(1);
+}
+
+function helpCmds() {
+  var out = Object.keys(cmds).map(function(command) {
+    command = cmds[command].description;
+    return '    ' + pad(command[0], 25) + command[1];
+  });
+
+  return out.join('\n');
+}
+
+function pad(str, ln) {
+  var padding = ln - str.length;
+  return padding > 0 ? str + new Array(padding).join(' ') : str;
+}
