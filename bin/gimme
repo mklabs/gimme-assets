@@ -64,10 +64,14 @@ function error(err) {
 }
 
 function helpCmds() {
-  var out = Object.keys(cmds).map(function(command) {
-    command = cmds[command].description;
-    return '    ' + pad(command[0], 25) + command[1];
-  });
+  var out = Object.keys(cmds)
+    .filter(function(command) {
+      return cmds[command].description;
+    })
+    .map(function(command) {
+      command = cmds[command].description;
+      return '    ' + pad(command[0], 25) + command[1];
+    });
 
   return out.join('\n');
 }

@@ -12,7 +12,7 @@ the specified version is copied over the `--output` option (defaults to
 
     git clone git://github.com/mklabs/gimme-assets.git
     cd gimme-assets
-    npm link
+    npm install && npm link
 
 Or
 
