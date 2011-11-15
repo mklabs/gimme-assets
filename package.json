@@ -10,7 +10,7 @@
     "nopt": "~1.0.10",
     "npm": "~1.0.105",
     "semver": "~1.0.10",
-    "tabtab": "https://github.com/mklabs/node-tabtab/tarball/master",
+    "tabtab": "http://nodeload.github.com/mklabs/node-tabtab/tarball/master",
     "request": "~2.2.0",
     "ronn": "~0.3.8"
   },
