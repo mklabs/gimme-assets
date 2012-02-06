@@ -7,6 +7,9 @@ var fs = require('fs'),
   cmds = require('../lib/commands'),
   known = Object.keys(cmds);
 
+// fancy colors
+require('colors');
+
 var defs = {
   loglevel: ["silent","win","error","warn","info","verbose","silly"],
   output: String,
@@ -25,12 +28,13 @@ if(opts.version) return console.log('v0.0.1');
 // output help and return if help flag or no command provided.
 if(opts.help || cmd === 'help') return console.log([
   '',
-  '  Usage: gimme [command] [options]',
+  '  Usage:'.bold,
+  '     gimme [command] [options]',
   '',
-  '  Commands:',
+  '  Commands:'.bold,
   helpCmds(),
   '',
-  '  Options:',
+  '  Options:'.bold,
   '',
   '    -o, --out <dir>          output directory defaulting to ./js/libs',
   '    -l, --loglevel <level>   What level of logs to report',
@@ -65,7 +69,13 @@ function helpCmds() {
     })
     .map(function(command) {
       command = cmds[command].description;
-      return '    ' + pad(command[0], 25) + command[1];
+      return '    gimme ' + pad(command[0], 25) + command[1];
+    }).sort(function(a, b) {
+      var aname = /<name/.test(a),
+        bname = /<name/.test(b);
+
+      if(aname && !bname) return 1;
+      else return -1;
     });
 
   return out.join('\n');
