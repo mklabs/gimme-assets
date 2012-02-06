@@ -8,17 +8,18 @@
   },
   "dependencies": {
     "nopt": "~1.0.10",
-    "npm": "~1.0.105",
-    "semver": "~1.0.10",
     "tabtab": "http://nodeload.github.com/mklabs/node-tabtab/tarball/master",
+    "gh-fetch": "http://nodeload.github.com/mklabs/gh-fetch/tarball/master",
     "request": "~2.2.0",
-    "ronn": "~0.3.8"
+    "ronn": "~0.3.8",
+    "rimraf": "~2.0.1",
+    "async": "~0.1.15",
+    "mkdirp": "~0.3.0"
   },
   "directories": {
     "bin": "./bin"
   },
   "scripts": {
-    "postinstall": "./scripts/install.js && ./bin/gimme completion install",
-    "preuninstall": "./bin/gimme completion uninstall"
+    "postinstall": "node ./scripts/install"
   }
 }
