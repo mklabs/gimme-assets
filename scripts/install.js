@@ -16,10 +16,6 @@ log.log('run newinstall', prefix);
 // * Store anc cache it in ~/.gimme
 //
 
-
-// Wipe out previous ~/.gimme if any
-rimraf.sync(prefix);
-
 // fetch latest copy of cdnjs' packages
 var fetcher = gh.fetch(['cdnjs/website', 'packages.json'], { branch: 'gh-pages', whereto: prefix }, function(err) {
   log.debug('fetch done', arguments);
