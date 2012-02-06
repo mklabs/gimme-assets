@@ -45,6 +45,7 @@ var start = +new Date;
 cmds[cmd](opts, function(err) {
   if(err) return error(err);
   logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
+  process.exit(0);
 });
 
 // ## Helpers
