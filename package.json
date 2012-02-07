@@ -3,6 +3,7 @@
   "name": "gimme-assets",
   "description": "Asset manager for cdnjs libs",
   "version": "0.0.1",
+  "bin": "bin/gimme",
   "engines": {
     "node": "> 0.4"
   },
@@ -10,17 +11,13 @@
     "nopt": "~1.0.10",
     "tabtab": "http://nodeload.github.com/mklabs/node-tabtab/tarball/master",
     "gh-fetch": "http://nodeload.github.com/mklabs/gh-fetch/tarball/master",
-    "request": "~2.2.0",
     "ronn": "~0.3.8",
-    "rimraf": "~2.0.1",
     "async": "~0.1.15",
     "mkdirp": "~0.3.0",
-    "colors": "~0.6.0-1"
-  },
-  "directories": {
-    "bin": "./bin"
+    "colors": "~0.6.0-1",
+    "rimraf": "~2.0.1"
   },
   "scripts": {
-    "postinstall": "node ./scripts/install"
+    "postuninstall": "node scripts/uninstall"
   }
 }
