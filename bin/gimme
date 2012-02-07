@@ -3,7 +3,8 @@
 var fs = require('fs'),
   path = require('path'),
   nopt = require('nopt'),
-  logger = require('../lib/logger'),
+  logger = require('../lib/utils/logger'),
+  install = require('../lib/utils/install'),
   cmds = require('../lib/commands'),
   known = Object.keys(cmds);
 
@@ -46,10 +47,14 @@ if(opts.help || cmd === 'help') return console.log([
 if(!cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
 
 var start = +new Date;
-cmds[cmd](opts, function(err) {
-  if(err) return error(err);
-  logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
-  process.exit(0);
+install(function(e) {
+  if(e) return error(e);
+
+  cmds[cmd](opts, function(err) {
+    if(err) return error(err);
+    logger.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
+    process.exit(0);
+  });
 });
 
 // ## Helpers
