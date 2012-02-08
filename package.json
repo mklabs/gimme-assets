@@ -1,8 +1,8 @@
 {
   "author": "mklabs",
   "name": "gimme-assets",
-  "description": "Asset manager for cdnjs libs",
-  "version": "0.0.1",
+  "description": "Command line helper for cdnjs / microjs libs",
+  "version": "0.1.0",
   "main": "lib/gimme",
   "bin": {
     "gimme": "bin/gimme"
@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "nopt": "~1.0.10",
-    "tabtab": "http://nodeload.github.com/mklabs/node-tabtab/tarball/master",
-    "gh-fetch": "http://nodeload.github.com/mklabs/gh-fetch/tarball/master",
     "ronn": "~0.3.8",
     "async": "~0.1.15",
     "mkdirp": "~0.3.0",
     "colors": "~0.6.0-1",
-    "rimraf": "~2.0.1"
+    "rimraf": "~2.0.1",
+    "gh-fetch": "0.0.1",
+    "tabtab": "0.0.2"
   },
   "scripts": {
     "postuninstall": "node scripts/uninstall"
