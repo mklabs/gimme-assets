@@ -3,8 +3,10 @@
   "name": "gimme-assets",
   "description": "Asset manager for cdnjs libs",
   "version": "0.0.1",
-  "bin": "bin/gimme",
   "main": "lib/gimme",
+  "bin": {
+    "gimme": "bin/gimme"
+  },
   "engines": {
     "node": "> 0.4"
   },
