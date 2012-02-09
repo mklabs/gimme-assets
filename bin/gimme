@@ -42,6 +42,11 @@ if(opts.help || cmd === 'help') return console.log([
 
 if(!gimme.cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
 
+// case of completion command, bypass the loading stuff
+if(cmd === "completion") return gimme.cmds.completion(opts, function(e) {
+  if(e) return error(e);
+});
+
 var start = +new Date;
 gimme.load(function(e) {
   if(e) return error(e);
