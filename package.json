@@ -2,7 +2,7 @@
   "author": "mklabs",
   "name": "gimme-assets",
   "description": "Command line helper for cdnjs / microjs libs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/gimme",
   "bin": {
     "gimme": "bin/gimme"
@@ -17,9 +17,9 @@
     "mkdirp": "~0.3.0",
     "colors": "~0.6.0-1",
     "rimraf": "~2.0.1",
-    "gh-fetch": "http://nodeload.github.com/mklabs/gh-fetch/tarball/dev",
+    "github-flavored-markdown": "~1.0.1",
     "tabtab": "0.0.2",
-    "github-flavored-markdown": "~1.0.1"
+    "gh-fetch": "0.0.2"
   },
   "scripts": {
     "postuninstall": "node scripts/uninstall"
