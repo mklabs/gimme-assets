@@ -4,20 +4,15 @@ var fs = require('fs'),
   path = require('path'),
   nopt = require('nopt'),
   gimme = require('../'),
+  types = gimme.config.types,
+  shorthands = gimme.config.shorthands,
   known = Object.keys(gimme.cmds);
 
 // fancy colors
 require('colors');
 
-var defs = {
-  loglevel: ["silent","win","error","warn","info","verbose","silly"],
-  output: String,
-  help: Boolean,
-  version: Boolean
-};
-
 // use nopt to parse cli options
-var opts = nopt(defs),
+var opts = nopt(types, shorthands),
   remain = opts.argv.remain,
   cmd = remain[0] || 'help';
 
