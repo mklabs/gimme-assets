@@ -2,6 +2,7 @@
 
 var fs = require('fs'),
   path = require('path'),
+  join = path.join,
   nopt = require('nopt'),
   gimme = require('../'),
   types = gimme.config.types,
@@ -18,27 +19,10 @@ var opts = nopt(types, shorthands),
   cmd = remain[0] || 'help';
 
 // output version
-if(opts.version) return console.log(
-  JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8')).version
-);
+if(opts.version) return console.log(require('../package.json').version);
 
 // output help and return if help flag or no command provided.
-if(opts.help || cmd === 'help') return console.log([
-  '',
-  '  Usage:'.bold,
-  '     gimme [command] [options]',
-  '',
-  '  Commands:'.bold,
-  helpCmds(),
-  '',
-  '  Options:'.bold,
-  '',
-  '    -o, --out <dir>          output directory defaulting to ./js/libs',
-  '    -l, --loglevel <level>   What level of logs to report',
-  '    -v, --version            output program version',
-  '    -h, --help               display help information',
-  ''
-].join('\n'));
+if(opts.help || cmd === 'help') return fs.createReadStream(join(__dirname, 'help.txt')).pipe(process.stdout);
 
 if(!gimme.cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
 

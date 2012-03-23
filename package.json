@@ -8,7 +8,7 @@
     "gimme": "bin/gimme"
   },
   "engines": {
-    "node": "> 0.4"
+    "node": "0.6.x"
   },
   "dependencies": {
     "nopt": "~1.0.10",
@@ -18,10 +18,10 @@
     "colors": "~0.6.0-1",
     "rimraf": "~2.0.1",
     "github-flavored-markdown": "~1.0.1",
-    "tabtab": "0.0.2",
-    "gh-fetch": "0.0.2"
+    "tabtab": "0.0.2"
   },
   "scripts": {
+    "install": "cd lib/fetch && npm install --production",
     "postuninstall": "node scripts/uninstall"
   }
 }
