@@ -11,17 +11,20 @@
     "node": "0.6.x"
   },
   "dependencies": {
-    "nopt": "~1.0.10",
     "ronn": "~0.3.8",
     "async": "~0.1.15",
     "mkdirp": "~0.3.0",
-    "colors": "~0.6.0-1",
     "rimraf": "~2.0.1",
     "github-flavored-markdown": "~1.0.1",
-    "tabtab": "0.0.2"
+    "tabtab": "0.0.2",
+    "flatiron": "~0.1.16",
+    "nopt": "~1.0.10",
+    "director": "~1.0.9-1",
+    "cfg": "0.0.2"
   },
   "scripts": {
-    "install": "cd lib/fetch && npm install --production",
-    "postuninstall": "node scripts/uninstall"
+    "install": "cd lib/gimme/fetch && npm install --production",
+    "postuninstall": "node scripts/uninstall",
+    "test": "node test"
   }
 }
