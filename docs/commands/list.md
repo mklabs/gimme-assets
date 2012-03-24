@@ -2,6 +2,9 @@ gimme-list(1) -- List installed packages
 ========================================
 
     gimme list
+    gimme ls
+    gimme la
+    gimme ll
 
 This command will print to stdout all the packages that are available
 with standard name + description, as well as allowing you to specify
