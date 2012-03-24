@@ -78,6 +78,14 @@ app object (`gimme`) and callback to invoke to pass control over.
 Path to postinstall script to run on completion. This can be aboslute or
 relative to current workind directly.
 
+### force
+
+* Type: Boolean
+* Default: false
+
+If the package name already exists, an additional prompt confirmation
+happens. `--force` let you skip this step and force the replace.
+
 ### prompt overrides
 
 The `add` command prompts for user inputs for a bunch of information,
