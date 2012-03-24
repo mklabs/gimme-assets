@@ -13,6 +13,6 @@ gimme.start(function(err) {
     process.exit(1);
   }
 
-  if(gimme.running !== 'help') gimme.info(gimme.running, 'done in', (+new Date - start) / 1000 + 's');
+  if(gimme.running !== 'help' && gimme.get('debug')) gimme.info(gimme.running, 'done in', (+new Date - start) / 1000 + 's');
 });
 
