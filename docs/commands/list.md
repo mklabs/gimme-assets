@@ -18,7 +18,7 @@ option.
 
 When run as `ll` or `la`, it shows extended information by default.
 
-## CONFIGURATION
+## Configuration
 
 ### props
 
