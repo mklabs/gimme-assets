@@ -1,0 +1,5589 @@
+[
+  {
+    "name": "bowser",
+    "description": "A browser detector. Because when there is no features to detect, sometimes you have to browser sniff",
+    "version": "",
+    "homepage": "https://github.com/ded/bowser",
+    "keywords": [
+      "feature"
+    ],
+    "repo": "ded/bowser",
+    "branch": "master",
+    "source": [
+      "bowser.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/bowser"
+      }
+    ]
+  },
+  {
+    "name": "json-3",
+    "description": "A modern JSON implementation compatible with nearly all JavaScript platforms.",
+    "version": "",
+    "homepage": "http://bestiejs.github.com/json3",
+    "keywords": [
+      "polyfill",
+      "json",
+      "amd"
+    ],
+    "repo": "http://bestiejs.github.com/json3/lib/json3.js",
+    "branch": "bestiejs.github.com",
+    "source": [
+      "http://bestiejs.github.com/json3/lib/json3.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://bestiejs.github.com/json3"
+      }
+    ]
+  },
+  {
+    "name": "jwerty",
+    "description": "Bind, fire and assert on keyboard events, with easy to use keyboard selector combos",
+    "version": "",
+    "homepage": "https://github.com/keithamus/jwerty",
+    "keywords": [
+      "events"
+    ],
+    "repo": "keithamus/jwerty",
+    "branch": "master",
+    "source": [
+      "jwerty.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/keithamus/jwerty"
+      }
+    ]
+  },
+  {
+    "name": "remotestorage",
+    "description": "A library for adding remoteStorage support to your client-side app.",
+    "version": "",
+    "homepage": "https://github.com/unhosted/remoteStorage.js",
+    "keywords": [
+      "events",
+      "ajax",
+      "storage"
+    ],
+    "repo": "unhosted/remoteStorage.js",
+    "branch": "master",
+    "source": [
+      "src/remoteStorage.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/unhosted/remoteStorage.js"
+      }
+    ]
+  },
+  {
+    "name": "smoke-signals",
+    "description": "Really, really lightweight event emitting",
+    "version": "",
+    "homepage": "https://github.com/bentomas/smokesignals",
+    "keywords": [
+      "events"
+    ],
+    "repo": "bentomas/smokesignals",
+    "branch": "master",
+    "source": [
+      "smokesignals.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bentomas/smokesignals"
+      }
+    ]
+  },
+  {
+    "name": "stapes",
+    "description": "A (really) tiny Javascript MVC microframework. Perfect for mobile.",
+    "version": "",
+    "homepage": "http://hay.github.com/stapes/",
+    "keywords": [
+      "mvc",
+      "class",
+      "events",
+      "mobile"
+    ],
+    "repo": "hay/stapes",
+    "branch": "master",
+    "source": [
+      "stapes.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://hay.github.com/stapes/"
+      }
+    ]
+  },
+  {
+    "name": "mediator",
+    "description": "Flexible pubsub-ish framework for handling namespaced events.",
+    "version": "",
+    "homepage": "http://www.thejacklawson.com/Mediator.js",
+    "keywords": [
+      "utils",
+      "pubsub",
+      "notifications",
+      "events",
+      "async",
+      "callbacks"
+    ],
+    "repo": "ajacksified/Mediator.js",
+    "branch": "master",
+    "source": [
+      "mediator.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://www.thejacklawson.com/Mediator.js"
+      }
+    ]
+  },
+  {
+    "name": "list",
+    "description": "Add search, sort and flexibility to plain HTML lists (div, ul, table, everything!).",
+    "version": "",
+    "homepage": "http://listjs.com",
+    "keywords": [
+      "list",
+      "extend",
+      "templating",
+      "utils",
+      "sort",
+      "search",
+      "filter"
+    ],
+    "repo": "javve/list",
+    "branch": "master",
+    "source": [
+      "src/list.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://listjs.com"
+      }
+    ]
+  },
+  {
+    "name": "ytiframe",
+    "description": "A flexible, plain javascript youtube video embedding script in less than 40 lines.",
+    "version": "",
+    "homepage": "https://github.com/mdix/ytIframe",
+    "keywords": [
+      "youtube",
+      "iframe",
+      "video"
+    ],
+    "repo": "mdix/ytIframe",
+    "branch": "master",
+    "source": [
+      "iframe.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/mdix/ytIframe"
+      }
+    ]
+  },
+  {
+    "name": "router",
+    "description": "controller/action convention for javascript. home/index would automatically instantiate Home js class and fire index action.",
+    "version": "",
+    "homepage": "https://github.com/dperrymorrow/router.js",
+    "keywords": [
+      "routing",
+      "rails"
+    ],
+    "repo": "dperrymorrow/router.js",
+    "branch": "master",
+    "source": [
+      "router-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/dperrymorrow/router.js"
+      }
+    ]
+  },
+  {
+    "name": "string::format",
+    "description": "Adds a `format` method to `String.prototype`. Inspired by Python's `str.format()`.",
+    "version": "",
+    "homepage": "https://bitbucket.org/davidchambers/string-format",
+    "keywords": [
+      "string",
+      "language",
+      "sugar"
+    ],
+    "repo": "https://bitbucket.org/davidchambers/string-format/raw/default/string-format.js",
+    "branch": "bitbucket.org",
+    "source": [
+      "https://bitbucket.org/davidchambers/string-format/raw/default/string-format.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://bitbucket.org/davidchambers/string-format"
+      }
+    ]
+  },
+  {
+    "name": "t-lite",
+    "description": "A lite but powerfull javascript template engine",
+    "version": "",
+    "homepage": "https://github.com/CapMousse/T-Lite",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "CapMousse/T-Lite",
+    "branch": "master",
+    "source": [
+      "tlite.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/CapMousse/T-Lite"
+      }
+    ]
+  },
+  {
+    "name": "keyvent",
+    "description": "Keyboard events simulator.",
+    "version": "",
+    "homepage": "https://github.com/gtramontina/keyvent.js",
+    "keywords": [
+      "dom",
+      "events",
+      "amd"
+    ],
+    "repo": "gtramontina/keyvent.js",
+    "branch": "master",
+    "source": [
+      "keyvent.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/gtramontina/keyvent.js"
+      }
+    ]
+  },
+  {
+    "name": "radio",
+    "description": "Chainable publish/subscribe framework",
+    "version": "",
+    "homepage": "http://radio.uxder.com",
+    "keywords": [
+      "events",
+      "pubsub"
+    ],
+    "repo": "uxder/Radio",
+    "branch": "master",
+    "source": [
+      "radio.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://radio.uxder.com"
+      }
+    ]
+  },
+  {
+    "name": "scaleapp",
+    "description": "scaleApp is a tiny JavaScript framework for scalable one-page-applications",
+    "version": "",
+    "homepage": "http://scaleapp.org/",
+    "keywords": [
+      "spa",
+      "base",
+      "events"
+    ],
+    "repo": "flosse/scaleApp",
+    "branch": "master",
+    "source": [
+      "build/scaleApp.full.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://scaleapp.org/"
+      }
+    ]
+  },
+  {
+    "name": "path",
+    "description": "Simple, lightweight routing for web browsers",
+    "version": "",
+    "homepage": "http://mtrpcic.github.com/pathjs/",
+    "keywords": [
+      "route"
+    ],
+    "repo": "mtrpcic/pathjs",
+    "branch": "master",
+    "source": [
+      "path.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mtrpcic.github.com/pathjs/"
+      }
+    ]
+  },
+  {
+    "name": "speculoos",
+    "description": "Simple JavaScript Class notation, fully CoffeeScript compliant",
+    "version": "",
+    "homepage": "https://github.com/k33g/speculoos",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "k33g/speculoos",
+    "branch": "master",
+    "source": [
+      "speculoos.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/k33g/speculoos"
+      }
+    ]
+  },
+  {
+    "name": "traversty",
+    "description": "Headache-free DOM traversal using PrototypeJS inspired up(), down(), next() and previous(). Ideal for use with Ender.",
+    "version": "",
+    "homepage": "https://github.com/rvagg/traversty",
+    "keywords": [
+      "dom"
+    ],
+    "repo": "rvagg/traversty",
+    "branch": "master",
+    "source": [
+      "traversty.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/rvagg/traversty"
+      }
+    ]
+  },
+  {
+    "name": "notificon",
+    "description": "Dynamic tab favicon notifications/alerts",
+    "version": "",
+    "homepage": "https://github.com/makeable/Notificon",
+    "keywords": [
+      "notification",
+      "alert",
+      "browser",
+      "canvas",
+      "tab"
+    ],
+    "repo": "makeable/Notificon",
+    "branch": "master",
+    "source": [
+      "notificon.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/makeable/Notificon"
+      }
+    ]
+  },
+  {
+    "name": "uuid-v4",
+    "description": "RFC-4122 Compliant Random (v4) UUID Generator",
+    "version": "",
+    "homepage": "https://github.com/makeable/uuid-v4.js",
+    "keywords": [
+      "random",
+      "uuid",
+      "data",
+      "browser",
+      "commonjs",
+      "node"
+    ],
+    "repo": "makeable/uuid-v4.js",
+    "branch": "master",
+    "source": [
+      "uuid-v4.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/makeable/uuid-v4.js"
+      }
+    ]
+  },
+  {
+    "name": "mathmethods",
+    "description": "Give `Number.prototype` the `Math` methods it deserves.",
+    "version": "",
+    "homepage": "https://bitbucket.org/davidchambers/mathmethods.js",
+    "keywords": [
+      "math",
+      "language",
+      "sugar"
+    ],
+    "repo": "https://bitbucket.org/davidchambers/mathmethods.js/raw/default/mathmethods.js",
+    "branch": "bitbucket.org",
+    "source": [
+      "https://bitbucket.org/davidchambers/mathmethods.js/raw/default/mathmethods.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://bitbucket.org/davidchambers/mathmethods.js"
+      }
+    ]
+  },
+  {
+    "name": "marked",
+    "description": "A markdown parser and compiler. Built for speed.",
+    "version": "",
+    "homepage": "https://github.com/chjj/marked",
+    "keywords": [
+      "markdown",
+      "markup",
+      "parser"
+    ],
+    "repo": "chjj/marked",
+    "branch": "master",
+    "source": [
+      "lib/marked.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/chjj/marked"
+      }
+    ]
+  },
+  {
+    "name": "supplement",
+    "description": "A small collection of utility functions to make working with JavaScript that much sweeter and more expressive.",
+    "version": "",
+    "homepage": "http://supplementjs.com",
+    "keywords": [
+      "functional",
+      "language",
+      "data",
+      "sugar"
+    ],
+    "repo": "olivernn/supplement.js",
+    "branch": "master",
+    "source": [
+      "dist/supplement-0.1.1.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://supplementjs.com"
+      }
+    ]
+  },
+  {
+    "name": "zest",
+    "description": "An absurdly fast selector engine. Supports CSS3/CSS4 selectors - faster than Sizzle.",
+    "version": "",
+    "homepage": "https://github.com/chjj/zest",
+    "keywords": [
+      "css",
+      "selector",
+      "dom"
+    ],
+    "repo": "chjj/zest",
+    "branch": "master",
+    "source": [
+      "lib/zest.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/chjj/zest"
+      }
+    ]
+  },
+  {
+    "name": "swipe",
+    "description": "A lightweight 1-to-1 mobile slider. Optimized for touch devices.",
+    "version": "",
+    "homepage": "https://github.com/bradbirdsall/Swipe",
+    "keywords": [
+      "jsanimation",
+      "mobile"
+    ],
+    "repo": "bradbirdsall/Swipe",
+    "branch": "master",
+    "source": [
+      "swipe.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bradbirdsall/Swipe"
+      }
+    ]
+  },
+  {
+    "name": "unlimit",
+    "description": "Allows for chaining with native JavaScript objects without extending objects' prototypes.",
+    "version": "",
+    "homepage": "http://limeblack.github.com/UnlimitJS/",
+    "keywords": [
+      "functional",
+      "language"
+    ],
+    "repo": "limeblack/UnlimitJS",
+    "branch": "master",
+    "source": [
+      "unlimit.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://limeblack.github.com/UnlimitJS/"
+      }
+    ]
+  },
+  {
+    "name": "wru",
+    "description": "essential unit test framework compatible with browsers, node.js, and Rhino",
+    "version": "",
+    "homepage": "https://github.com/WebReflection/wru",
+    "keywords": [
+      "testing"
+    ],
+    "repo": "WebReflection/wru",
+    "branch": "master",
+    "source": [
+      "build/wru.dom.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/WebReflection/wru"
+      }
+    ]
+  },
+  {
+    "name": "resistance",
+    "description": "A tiny javascript async flow control library.",
+    "version": "",
+    "homepage": "https://github.com/jgallen23/resistance",
+    "keywords": [
+      "async",
+      "flow"
+    ],
+    "repo": "jgallen23/resistance",
+    "branch": "master",
+    "source": [
+      "dist/resistance.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jgallen23/resistance"
+      }
+    ]
+  },
+  {
+    "name": "maddy",
+    "description": "A functional object operations library.",
+    "version": "",
+    "homepage": "http://bestiejs.github.com/maddy",
+    "keywords": [
+      "functional",
+      "language",
+      "data"
+    ],
+    "repo": "http://bestiejs.github.com/maddy/lib/maddy.js",
+    "branch": "bestiejs.github.com",
+    "source": [
+      "http://bestiejs.github.com/maddy/lib/maddy.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://bestiejs.github.com/maddy"
+      }
+    ]
+  },
+  {
+    "name": "species",
+    "description": "Java style OOP, and AOP ability, watchable members, inheritance and ability to call super members.",
+    "version": "",
+    "homepage": "https://github.com/k33g/species",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "k33g/species",
+    "branch": "master",
+    "source": [
+      "js/species.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/k33g/species"
+      }
+    ]
+  },
+  {
+    "name": "typogr",
+    "description": "Provides ransformations to plain text for typographically-improved HTML.",
+    "version": "",
+    "homepage": "https://github.com/ekalinin/typogr.js",
+    "keywords": [
+      "dom",
+      "data",
+      "css",
+      "text",
+      "ui",
+      "typography",
+      "hyphenation"
+    ],
+    "repo": "ekalinin/typogr.js",
+    "branch": "master",
+    "source": [
+      "typogr.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ekalinin/typogr.js"
+      }
+    ]
+  },
+  {
+    "name": "morf",
+    "description": "A JavaScript work-around for hardware accelerated CSS3 transitions with custom easing functions.",
+    "version": "",
+    "homepage": "https://github.com/joelambert/morf",
+    "keywords": [
+      "animation",
+      "jsanimation"
+    ],
+    "repo": "http://www.joelambert.co.uk/morf/js/morf.js",
+    "branch": "www.joelambert.co.uk",
+    "source": [
+      "http://www.joelambert.co.uk/morf/js/morf.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/joelambert/morf"
+      }
+    ]
+  },
+  {
+    "name": "keymaster",
+    "description": "Define scoped keyboard shortcuts, including modifier keys.",
+    "version": "",
+    "homepage": "https://github.com/madrobby/keymaster",
+    "keywords": [
+      "events"
+    ],
+    "repo": "madrobby/keymaster",
+    "branch": "master",
+    "source": [
+      "keymaster.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/madrobby/keymaster"
+      }
+    ]
+  },
+  {
+    "name": "whenever",
+    "description": "Specify your app's behavior using a syntax that reads like English",
+    "version": "",
+    "homepage": "https://github.com/paulca/whenever.js",
+    "keywords": [
+      "events"
+    ],
+    "repo": "paulca/whenever.js",
+    "branch": "master",
+    "source": [
+      "whenever.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/paulca/whenever.js"
+      }
+    ]
+  },
+  {
+    "name": "shifty",
+    "description": "A teeny tiny tweening engine in JavaScript.",
+    "version": "",
+    "homepage": "https://github.com/jeremyckahn/shifty",
+    "keywords": [
+      "animation",
+      "jsanimation"
+    ],
+    "repo": "jeremyckahn/shifty",
+    "branch": "master",
+    "source": [
+      "dist/shifty.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeremyckahn/shifty"
+      }
+    ]
+  },
+  {
+    "name": "obscura",
+    "description": "Canvas based image manipulation library",
+    "version": "",
+    "homepage": "https://github.com/OiNutter/Obscura",
+    "keywords": [
+      "canvas",
+      "image",
+      "manipulation"
+    ],
+    "repo": "OiNutter/Obscura",
+    "branch": "master",
+    "source": [
+      "dist/obscura.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/OiNutter/Obscura"
+      }
+    ]
+  },
+  {
+    "name": "micro-selector",
+    "description": "A micro, super fast, scope limited, javascript selector engine to be used anywhere",
+    "version": "",
+    "homepage": "https://github.com/fabiomcosta/micro-selector",
+    "keywords": [
+      "css"
+    ],
+    "repo": "fabiomcosta/micro-selector",
+    "branch": "master",
+    "source": [
+      "dist/uSelector.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/fabiomcosta/micro-selector"
+      }
+    ]
+  },
+  {
+    "name": "json2",
+    "description": "This file creates a global JSON object containing two methods: stringify and parse.",
+    "version": "20110223",
+    "homepage": "https://github.com/douglascrockford/JSON-js",
+    "keywords": [
+      "json",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "json2.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/douglascrockford/JSON-js"
+      }
+    ]
+  },
+  {
+    "name": "jsxgraph",
+    "description": "JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.",
+    "version": "0.93",
+    "homepage": "http://jsxgraph.org/",
+    "keywords": [
+      "dynamic geometry",
+      "function plotting",
+      "mathematics education"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jsxgraphcore.js"
+    ],
+    "repositories": [
+      {
+        "type": "svn",
+        "url": "https://jsxgraph.svn.sourceforge.net/svnroot/jsxgraph"
+      }
+    ]
+  },
+  {
+    "name": "knockout",
+    "description": "Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)",
+    "version": "2.0.0",
+    "homepage": "http://knockoutjs.com/",
+    "keywords": [
+      "mvvm",
+      "ui",
+      "templating"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "knockout-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/SteveSanderson/knockout"
+      }
+    ]
+  },
+  {
+    "name": "labjs",
+    "description": "LABjs (Loading And Blocking JavaScript) is an open-source (MIT license) project supported by Getify Solutions. The core purpose of LABjs is to be an all-purpose, on-demand JavaScript loader, capable of loading any JavaScript resource, from any location, into any page, at any time. Loading your scripts with LABjs reduces resource blocking during page-load, which is an easy and effective way to optimize your site's performance.",
+    "version": "2.0.3",
+    "homepage": "http://labjs.com/",
+    "keywords": [
+      "loader",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "LAB.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/getify/LABjs"
+      }
+    ]
+  },
+  {
+    "name": "less.js",
+    "description": "LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (IE 6+, Webkit, Firefox) and server-side, with Node.js.",
+    "version": "1.1.5",
+    "homepage": "http://lesscss.org/",
+    "keywords": [
+      "css",
+      "css3",
+      "html",
+      "html5",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "less-1.1.5.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/cloudhead/less.js"
+      }
+    ]
+  },
+  {
+    "name": "masonry",
+    "description": "A dynamic layout plugin for jQuery.",
+    "version": "2.1.0",
+    "homepage": "http://masonry.desandro.com/",
+    "keywords": [
+      "jquery",
+      "layout",
+      "float"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.masonry.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/desandro/masonry"
+      }
+    ]
+  },
+  {
+    "name": "modernizr",
+    "description": "Modernizr adds classes to the element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.",
+    "version": "2.5.3",
+    "homepage": "http://www.modernizr.com/",
+    "keywords": [
+      "css",
+      "css3",
+      "html",
+      "html5",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "modernizr.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Modernizr/Modernizr"
+      }
+    ]
+  },
+  {
+    "name": "mootools",
+    "description": "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.",
+    "version": "1.3.2",
+    "homepage": "http://mootools.net/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "mootools-yui-compressed.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mootools.net/"
+      }
+    ]
+  },
+  {
+    "name": "mustache.js",
+    "description": "mustache.js — Logic-less templates with JavaScript",
+    "version": "0.3.0",
+    "homepage": "https://github.com/janl/mustache.js",
+    "keywords": [
+      "templates",
+      "templating"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "mustache.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/janl/mustache.js"
+      }
+    ]
+  },
+  {
+    "name": "ninjaui",
+    "description": "The jQuery plugin for lethal interaction",
+    "version": "1.0.1",
+    "homepage": "http://ninjaui.com/",
+    "keywords": [
+      "ninjaui",
+      "ui",
+      "jquery"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.ninjaui.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "plain file",
+        "url": "https://github.com/ninja/ui/"
+      }
+    ]
+  },
+  {
+    "name": "noisy",
+    "description": "Adds random noise to the background of a given element.",
+    "version": "1.1",
+    "homepage": "http://rappdaniel.com/noisy/",
+    "keywords": [
+      "noisy",
+      "noise generator",
+      "canvas"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.noisy.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/DanielRapp/Noisy"
+      }
+    ]
+  },
+  {
+    "name": "ocanvas",
+    "description": "oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.",
+    "version": "2.0.0",
+    "homepage": "http://ocanvas.org/",
+    "keywords": [
+      "html5",
+      "canvas"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "ocanvas.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/koggdal/ocanvas"
+      }
+    ]
+  },
+  {
+    "name": "pagedown",
+    "description": "PageDown is the JavaScript Markdown previewer used on Stack Overflow and the rest of the Stack Exchange network. It includes a Markdown-to-HTML converter and an in-page Markdown editor with live preview.",
+    "version": "1.0",
+    "homepage": "http://code.google.com/p/pagedown/wiki/PageDown",
+    "keywords": [
+      "markdown",
+      "converter"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "Markdown.Converter.js"
+    ],
+    "repositories": [
+      {
+        "type": "hg",
+        "url": "https://code.google.com/p/pagedown/"
+      }
+    ]
+  },
+  {
+    "name": "pie",
+    "description": "A behavior for Internet Explorer allowing it to recognize and render various CSS3 box decoration properties.",
+    "version": "1.0beta5",
+    "homepage": "http://css3pie.com/",
+    "keywords": [
+      "ie",
+      "internet",
+      "explorer",
+      "css3",
+      "pie"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "PIE.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/lojjic/PIE"
+      }
+    ]
+  },
+  {
+    "name": "prettify",
+    "description": "A Javascript module and CSS file that allows syntax highlighting of source code snippets in an html page.",
+    "version": "188.0.0",
+    "homepage": "http://code.google.com/p/google-code-prettify/",
+    "keywords": [
+      "code syntax highlighting"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "prettify.js"
+    ],
+    "repositories": [
+      {
+        "type": "svn",
+        "url": "http://google-code-prettify.googlecode.com/svn/trunk/"
+      }
+    ]
+  },
+  {
+    "name": "processing.js",
+    "description": "A port of the Processing visualization language to JavaScript.",
+    "version": "1.3.6",
+    "homepage": "http://processingjs.org",
+    "keywords": [
+      "html5",
+      "canvas"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "processing-api.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeresig/processing-js"
+      }
+    ]
+  },
+  {
+    "name": "prototype",
+    "description": "Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.",
+    "version": "1.7.0.0",
+    "homepage": "http://prototypejs.org/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "prototype.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://prototypejs.org/"
+      }
+    ]
+  },
+  {
+    "name": "pubnub",
+    "description": "PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.",
+    "version": "3.1.2",
+    "homepage": "http://www.pubnub.com/",
+    "keywords": [
+      "realtime",
+      "messaging",
+      "broadcasting",
+      "publish",
+      "subscribe",
+      "mobile",
+      "tablet",
+      "android",
+      "iphone",
+      "html5",
+      "webos",
+      "cloud",
+      "service",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "pubnub.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://www.pubnub.com/"
+      }
+    ]
+  },
+  {
+    "name": "raphael",
+    "description": "Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web.",
+    "version": "2.0.1",
+    "homepage": "http://raphaeljs.com/",
+    "keywords": [
+      "vector",
+      "graphics",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "raphael-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/DmitryBaranovskiy/raphael/"
+      }
+    ]
+  },
+  {
+    "name": "require.js",
+    "description": "Require.js merged with jQuery for loader goodness!",
+    "version": "0.26.0",
+    "homepage": "https://github.com/jrburke/require-jquery",
+    "keywords": [
+      "loader",
+      "modules",
+      "asynchronous",
+      "popular",
+      "jquery"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "require.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jrburke/require-jquery"
+      }
+    ]
+  },
+  {
+    "name": "require.js",
+    "description": "RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node",
+    "version": "1.0.5",
+    "homepage": "http://requirejs.org/",
+    "keywords": [
+      "loader",
+      "modules",
+      "asynchronous",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "require.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jrburke/requirejs"
+      }
+    ]
+  },
+  {
+    "name": "sammy.js",
+    "description": "Sammy is a tiny javascript framework built on top of jQuery, It's RESTful Evented Javascript.",
+    "version": "0.7.0",
+    "homepage": "http://sammyjs.org/",
+    "keywords": [
+      "framework",
+      "restful",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "sammy.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/quirkey/sammy"
+      }
+    ]
+  },
+  {
+    "name": "script.js",
+    "description": "$script.js is an asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint",
+    "version": "1.3",
+    "homepage": "http://www.dustindiaz.com/scriptjs/",
+    "keywords": [
+      "loader",
+      "asynchronous",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "script.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/script.js"
+      }
+    ]
+  },
+  {
+    "name": "scriptaculous",
+    "description": "script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.",
+    "version": "1.8.3",
+    "homepage": "http://script.aculo.us/",
+    "keywords": [
+      "ui",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "scriptaculous.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://script.aculo.us/"
+      }
+    ]
+  },
+  {
+    "name": "selectivizr",
+    "description": "selectivizr is a JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8. Simply include the script in your pages and selectivizr will do the rest.",
+    "version": "1.0.2",
+    "homepage": "http://selectivizr.com/",
+    "keywords": [
+      "css3",
+      "ie"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "selectivizr-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/keithclark/selectivizr"
+      }
+    ]
+  },
+  {
+    "name": "sizzle",
+    "description": "A pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.",
+    "version": "1.4.4",
+    "homepage": "http://sizzlejs.com/",
+    "keywords": [
+      "dom",
+      "selector",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "sizzle.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeresig/sizzle"
+      }
+    ]
+  },
+  {
+    "name": "socket.io",
+    "description": "Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.",
+    "version": "0.8.4",
+    "homepage": "http://socket.io",
+    "keywords": [
+      "websockets",
+      "node",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "socket.io.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "git://github.com/LearnBoost/Socket.IO.git"
+      }
+    ]
+  },
+  {
+    "name": "stopcensorship.js",
+    "description": "Use this script on your site to protest censorship of the Internet.",
+    "version": "1.0",
+    "homepage": "https://github.com/dougmartin/Stop-Censorship",
+    "keywords": [
+      "sopa"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "stopcensorship.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/dougmartin/Stop-Censorship"
+      }
+    ]
+  },
+  {
+    "name": "spinejs",
+    "description": "Spine is a lightweight framework for building JavaScript web applications",
+    "version": "0.0.4",
+    "homepage": "http://maccman.github.com/spine/",
+    "keywords": [
+      "mvc",
+      "models",
+      "controllers",
+      "events",
+      "routing",
+      "popular",
+      "orm"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "spine.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/maccman/spine"
+      }
+    ]
+  },
+  {
+    "name": "store",
+    "description": "A localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood",
+    "version": "1.1.1",
+    "homepage": "https://github.com/marcuswestin/store.js",
+    "keywords": [
+      "storage"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "store.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/marcuswestin/store.js"
+      }
+    ]
+  },
+  {
+    "name": "string_score",
+    "description": "string_score - JavaScript string ranking library",
+    "version": "0.1.10",
+    "homepage": "https://github.com/joshaven/string_score",
+    "keywords": [
+      "search",
+      "string ranking",
+      "algorithms"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "string_score.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/joshaven/string_score.git"
+      }
+    ]
+  },
+  {
+    "name": "swfobject",
+    "description": "SWFObject is an easy-to-use and standards-friendly method to embed Flash content, which utilizes one small JavaScript file",
+    "version": "2.2",
+    "homepage": "http://code.google.com/p/swfobject/",
+    "keywords": [
+      "swf",
+      "flash"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "swfobject.js"
+    ],
+    "repositories": [
+      {
+        "type": "svn",
+        "url": "http://swfobject.googlecode.com/svn/trunk/"
+      }
+    ]
+  },
+  {
+    "name": "tinyscrollbar",
+    "description": "A lightweight jQuery plugin to scroll content.",
+    "version": "1.66",
+    "homepage": "http://baijs.nl/tinyscrollbar/",
+    "keywords": [
+      "scrollbar",
+      "jquery"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.tinyscrollbar.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "plain file",
+        "url": "http://baijs.nl/tinyscrollbar/js/jquery.tinyscrollbar.min.js"
+      }
+    ]
+  },
+  {
+    "name": "twitter-bootstrap",
+    "description": "Javascript plugins for the Twitter Bootstrap toolkit",
+    "version": "2.0.1",
+    "homepage": "http://twitter.github.com/bootstrap/",
+    "keywords": [
+      "twitter",
+      "bootstrap"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "bootstrap.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/twitter/bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "twitterlib.js",
+    "description": "Library for doing all things Twitter API related, with added sauce for filtering, paging and paging",
+    "version": "0.9.0",
+    "homepage": "https://github.com/remy/twitterlib/",
+    "keywords": [
+      "twitter"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "twitterlib.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/remy/twitterlib/"
+      }
+    ]
+  },
+  {
+    "name": "underscore.js",
+    "description": "Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.",
+    "version": "1.3.1",
+    "homepage": "http://documentcloud.github.com/underscore/",
+    "keywords": [
+      "utility",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "underscore-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/documentcloud/underscore/"
+      }
+    ]
+  },
+  {
+    "name": "underscore.string",
+    "description": "Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.",
+    "version": "1.1.6",
+    "homepage": "http://edtsech.github.com/underscore.string/",
+    "keywords": [
+      "utility",
+      "string",
+      "underscore"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "underscore.string.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/edtsech/underscore.string/"
+      }
+    ]
+  },
+  {
+    "name": "waypoints",
+    "description": "Waypoints is a small jQuery plugin that makes it easy to execute a function whenever you scroll to an element.",
+    "version": "1.1",
+    "homepage": "http://imakewebthings.github.com/jquery-waypoints",
+    "keywords": [
+      "jquery",
+      "scrolling"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "waypoints.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/imakewebthings/jquery-waypoints"
+      }
+    ]
+  },
+  {
+    "name": "webfont",
+    "description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.",
+    "version": "1.0.19",
+    "homepage": "http://code.google.com/apis/webfonts/docs/webfont_loader.html",
+    "keywords": [
+      "ui",
+      "font"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "webfont.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://code.google.com/apis/webfonts/docs/webfont_loader.html"
+      }
+    ]
+  },
+  {
+    "name": "xuijs",
+    "description": "a super micro tiny dom library for authoring html5 mobile web applications.",
+    "version": "2.0.0",
+    "homepage": "http://xuijs.com/",
+    "keywords": [
+      "mobile",
+      "html",
+      "dom",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "xui.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/xui/xui"
+      }
+    ]
+  },
+  {
+    "name": "yepnope",
+    "description": "yepnope is a small wrapper around the super-fast LABjs script loader, and it allows you to load only the scripts that your users need.",
+    "version": "1.0.1",
+    "homepage": "http://yepnopejs.com/",
+    "keywords": [
+      "loader",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "yepnope.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/SlexAxton/yepnope.js"
+      }
+    ]
+  },
+  {
+    "name": "yui",
+    "description": "The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.",
+    "version": "3.3.0",
+    "homepage": "http://developer.yahoo.com/yui/",
+    "keywords": [
+      "ui",
+      "framework",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "yui-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://developer.yahoo.com/yui/"
+      }
+    ]
+  },
+  {
+    "name": "zepto",
+    "description": "Zepto.js is a minimalist JavaScript framework for modern web browsers, with a jQuery-compatible syntax.",
+    "version": "0.8",
+    "homepage": "http://zeptojs.com/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "mobile",
+      "webkit"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "zepto.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://zeptojs.com/"
+      }
+    ]
+  },
+  {
+    "name": "qatrix",
+    "description": "A new lightweight JavaScript framework for easily building up high performance web application with less code",
+    "version": "",
+    "homepage": "http://qatrix.com",
+    "keywords": [
+      "framework"
+    ],
+    "repo": "http://qatrix.com/files/qatrix-0.8",
+    "branch": "qatrix.com",
+    "source": [
+      "http://qatrix.com/files/qatrix-0.8"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://qatrix.com"
+      }
+    ]
+  },
+  {
+    "name": "smoothie-charts",
+    "description": "Smooooooth JavaScript charts for realtime streaming data",
+    "version": "",
+    "homepage": "http://smoothiecharts.org/",
+    "keywords": [
+      "canvas",
+      "charts",
+      "graphs"
+    ],
+    "repo": "joewalnes/smoothie",
+    "branch": "master",
+    "source": [
+      "smoothie.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://smoothiecharts.org/"
+      }
+    ]
+  },
+  {
+    "name": "soma",
+    "description": "Javascript mvc framework that help developers write loosely-coupled applications to increase scalability and maintainability.",
+    "version": "",
+    "homepage": "http://somajs.github.com/somajs/",
+    "keywords": [
+      "framework",
+      "mvc",
+      "events",
+      "command",
+      "observer"
+    ],
+    "repo": "http://somajs.github.com/somajs/examples/native/framework/src/soma.js",
+    "branch": "somajs.github.com",
+    "source": [
+      "http://somajs.github.com/somajs/examples/native/framework/src/soma.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://somajs.github.com/somajs/"
+      }
+    ]
+  },
+  {
+    "name": "minion",
+    "description": "Cross-platform & cross-browser classical inheritance in JavaScript",
+    "version": "",
+    "homepage": "https://github.com/gigafied/minion",
+    "keywords": [
+      "class",
+      "inheritance",
+      "namespace",
+      "dependencies",
+      "pubsub",
+      "notifications"
+    ],
+    "repo": "gigafied/minion",
+    "branch": "master",
+    "source": [
+      "dist/minion-latest.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/gigafied/minion"
+      }
+    ]
+  },
+  {
+    "name": "panzer",
+    "description": "A comprehensive node-tree solution, for smart data",
+    "version": "",
+    "homepage": "https://github.com/bemson/Panzer",
+    "keywords": [
+      "data"
+    ],
+    "repo": "bemson/Panzer",
+    "branch": "master",
+    "source": [
+      "src/panzer.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bemson/Panzer"
+      }
+    ]
+  },
+  {
+    "name": "one-color",
+    "description": "Browser/node color library. Implicit color space conversions, chainable channel methods and CSS convenience methods. RGB, HSV, HSL, CMYK with alpha channel",
+    "version": "",
+    "homepage": "https://github.com/One-com/one-color",
+    "keywords": [
+      "color"
+    ],
+    "repo": "One-com/one-color",
+    "branch": "master",
+    "source": [
+      "one-color-debug.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/One-com/one-color"
+      }
+    ]
+  },
+  {
+    "name": "simplify",
+    "description": "A tiny high-performance JavaScript 2D/3D polyline simplification library.",
+    "version": "",
+    "homepage": "http://mourner.github.com/simplify-js/",
+    "keywords": [
+      "math",
+      "geometry",
+      "simplification",
+      "polyline"
+    ],
+    "repo": "mourner/simplify-js",
+    "branch": "master",
+    "source": [
+      "simplify.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mourner.github.com/simplify-js/"
+      }
+    ]
+  },
+  {
+    "name": "tinydom",
+    "description": "A very small DOM manipulation framework",
+    "version": "",
+    "homepage": "https://github.com/ctult/TinyDOM",
+    "keywords": [
+      "dom"
+    ],
+    "repo": "ctult/TinyDOM",
+    "branch": "master",
+    "source": [
+      "tinyDOM.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ctult/TinyDOM"
+      }
+    ]
+  },
+  {
+    "name": "vine",
+    "description": "An events library that supports binding, unbinding, and triggering events on DOM elements or JavaScript Objects",
+    "version": "",
+    "homepage": "https://github.com/arexkun/Vine",
+    "keywords": [
+      "events"
+    ],
+    "repo": "arexkun/Vine",
+    "branch": "master",
+    "source": [
+      "vine.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/arexkun/Vine"
+      }
+    ]
+  },
+  {
+    "name": "shorttag",
+    "description": "templating engine for node and browser.",
+    "version": "",
+    "homepage": "https://github.com/jeromeetienne/shorttag.js",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "jeromeetienne/shorttag.js",
+    "branch": "master",
+    "source": [
+      "lib/shorttag.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeromeetienne/shorttag.js"
+      }
+    ]
+  },
+  {
+    "name": "microcache",
+    "description": "in-memory cache for node and browser.",
+    "version": "",
+    "homepage": "https://github.com/jeromeetienne/microcache.js",
+    "keywords": [
+      "data",
+      "storage",
+      "cache"
+    ],
+    "repo": "jeromeetienne/MicroCache.js",
+    "branch": "master",
+    "source": [
+      "microcache.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeromeetienne/microcache.js"
+      }
+    ]
+  },
+  {
+    "name": "microevent",
+    "description": "event emitter for any javascript object for node and browser.",
+    "version": "",
+    "homepage": "https://github.com/jeromeetienne/microevent.js",
+    "keywords": [
+      "events",
+      "node"
+    ],
+    "repo": "jeromeetienne/microevent.js",
+    "branch": "master",
+    "source": [
+      "microevent.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeromeetienne/microevent.js"
+      }
+    ]
+  },
+  {
+    "name": "tinyjs",
+    "description": "A tiny yet complete toolkit",
+    "version": "",
+    "homepage": "http://tinyjs.sourceforge.net/tiny.js",
+    "keywords": [
+      "base",
+      "css",
+      "functional"
+    ],
+    "repo": "http://tinyjs.sourceforge.net/tiny.js",
+    "branch": "tinyjs.sourceforge.net",
+    "source": [
+      "http://tinyjs.sourceforge.net/tiny.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://tinyjs.sourceforge.net/tiny.js"
+      }
+    ]
+  },
+  {
+    "name": "platform",
+    "description": "A platform detection library that works on nearly all JavaScript platforms.",
+    "version": "",
+    "homepage": "https://github.com/bestiejs/platform.js",
+    "keywords": [
+      "feature"
+    ],
+    "repo": "bestiejs/platform.js",
+    "branch": "master",
+    "source": [
+      "platform.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bestiejs/platform.js"
+      }
+    ]
+  },
+  {
+    "name": "system",
+    "description": "Generates a JavaScript object with the user's system information.",
+    "version": "",
+    "homepage": "https://github.com/mrdoob/system.js",
+    "keywords": [
+      "feature"
+    ],
+    "repo": "mrdoob/system.js",
+    "branch": "master",
+    "source": [
+      "src/System.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/mrdoob/system.js"
+      }
+    ]
+  },
+  {
+    "name": "state-machine",
+    "description": "A finite state machine, useful in game development",
+    "version": "",
+    "homepage": "https://github.com/jakesgordon/javascript-state-machine",
+    "keywords": [
+      "data",
+      "games",
+      "statemachine"
+    ],
+    "repo": "jakesgordon/javascript-state-machine",
+    "branch": "master",
+    "source": [
+      "state-machine.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jakesgordon/javascript-state-machine"
+      }
+    ]
+  },
+  {
+    "name": "slang",
+    "description": "A collection of utility functions for strings",
+    "version": "",
+    "homepage": "https://github.com/devongovett/slang",
+    "keywords": [
+      "string",
+      "functional",
+      "language"
+    ],
+    "repo": "devongovett/slang",
+    "branch": "master",
+    "source": [
+      "slang.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/devongovett/slang"
+      }
+    ]
+  },
+  {
+    "name": "microjungle",
+    "description": "very simple and powerful client-side HTML via JSON templating engine.",
+    "version": "",
+    "homepage": "https://github.com/deepsweet/microjungle",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "deepsweet/microjungle",
+    "branch": "master",
+    "source": [
+      "src/microjungle.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/deepsweet/microjungle"
+      }
+    ]
+  },
+  {
+    "name": "viper",
+    "description": "A friendly library for changing a property of an object over time. Supports animating numbers, colors, and even strings.",
+    "version": "",
+    "homepage": "https://github.com/alpha123/Viper",
+    "keywords": [
+      "animation",
+      "jsanimation",
+      "color",
+      "text"
+    ],
+    "repo": "alpha123/Viper",
+    "branch": "master",
+    "source": [
+      "src/viper-uncompressed.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/alpha123/Viper"
+      }
+    ]
+  },
+  {
+    "name": "morpheus",
+    "description": "An animator that lets you tween in parallel on multiple elements, from integers to colors in a single high-performant loop",
+    "version": "",
+    "homepage": "https://github.com/ded/morpheus",
+    "keywords": [
+      "animation",
+      "jsanimation",
+      "color"
+    ],
+    "repo": "ded/morpheus",
+    "branch": "master",
+    "source": [
+      "morpheus.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/morpheus"
+      }
+    ]
+  },
+  {
+    "name": "minpubsub",
+    "description": "A publish/subscribe messaging framework",
+    "version": "",
+    "homepage": "https://github.com/daniellmb/MinPubSub",
+    "keywords": [
+      "events",
+      "pubsub"
+    ],
+    "repo": "daniellmb/MinPubSub",
+    "branch": "master",
+    "source": [
+      "minpubsub.src.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/daniellmb/MinPubSub"
+      }
+    ]
+  },
+  {
+    "name": "xui",
+    "description": "DOM library for authoring HTML5 mobile web applications, works cross-device and cross-platform.",
+    "version": "",
+    "homepage": "http://xuijs.com",
+    "keywords": [
+      "base",
+      "dom",
+      "mobile",
+      "ajax",
+      "events",
+      "webkit",
+      "animation"
+    ],
+    "repo": "http://xuijs.com/downloads/xui-2.3.2.js",
+    "branch": "xuijs.com",
+    "source": [
+      "http://xuijs.com/downloads/xui-2.3.2.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://xuijs.com"
+      }
+    ]
+  },
+  {
+    "name": "weld",
+    "description": "Completely unobtrusive, full featured template antimatter. Works in Node.js or the Browser, awesome built-in debugger.",
+    "version": "",
+    "homepage": "http://www.github.com/hij1nx/weld",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "hij1nx/weld",
+    "branch": "master",
+    "source": [
+      "lib/weld.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://www.github.com/hij1nx/weld"
+      }
+    ]
+  },
+  {
+    "name": "qwery",
+    "description": "Blazing fast query selector engine allowing you to select elements with CSS1, CSS2 & CSS3 selectors.",
+    "version": "",
+    "homepage": "https://github.com/ded/qwery",
+    "keywords": [
+      "css"
+    ],
+    "repo": "ded/qwery",
+    "branch": "master",
+    "source": [
+      "qwery.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/qwery"
+      }
+    ]
+  },
+  {
+    "name": "sly",
+    "description": "Sly is a query selector engine allowing you to select elements with CSS1, CSS2 & CSS3 selectors.",
+    "version": "",
+    "homepage": "https://github.com/digitarald/sly",
+    "keywords": [
+      "css"
+    ],
+    "repo": "digitarald/sly",
+    "branch": "master",
+    "source": [
+      "Sly.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/digitarald/sly"
+      }
+    ]
+  },
+  {
+    "name": "jsonselect",
+    "description": "CSS-like selectors for JSON.",
+    "version": "",
+    "homepage": "http://jsonselect.org",
+    "keywords": [
+      "data",
+      "json"
+    ],
+    "repo": "http://jsonselect.org/js/jsonselect.js",
+    "branch": "jsonselect.org",
+    "source": [
+      "http://jsonselect.org/js/jsonselect.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://jsonselect.org"
+      }
+    ]
+  },
+  {
+    "name": "émile",
+    "description": "Émile is a no-frills stand-alone CSS animation JavaScript framework",
+    "version": "",
+    "homepage": "https://github.com/madrobby/emile",
+    "keywords": [
+      "animation",
+      "jsanimation"
+    ],
+    "repo": "madrobby/emile",
+    "branch": "master",
+    "source": [
+      "emile.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/madrobby/emile"
+      }
+    ]
+  },
+  {
+    "name": "lawnchair",
+    "description": "Client side JSON document store. Perfect for WebKit mobile apps.",
+    "version": "",
+    "homepage": "http://westcoastlogic.com/lawnchair/",
+    "keywords": [
+      "data",
+      "storage",
+      "webkit",
+      "mobile"
+    ],
+    "repo": "http://westcoastlogic.com/lawnchair/downloads/lawnchair-0.6.1.js",
+    "branch": "westcoastlogic.com",
+    "source": [
+      "http://westcoastlogic.com/lawnchair/downloads/lawnchair-0.6.1.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://westcoastlogic.com/lawnchair/"
+      }
+    ]
+  },
+  {
+    "name": "placeholder",
+    "description": "Adds support for the placeholder attribute in older browsers that don't support this HTML5 feature.",
+    "version": "",
+    "homepage": "https://github.com/NV/placeholder.js",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "http://nv.github.com/placeholder.js/placeholder.js",
+    "branch": "nv.github.com",
+    "source": [
+      "http://nv.github.com/placeholder.js/placeholder.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/NV/placeholder.js"
+      }
+    ]
+  },
+  {
+    "name": "micro-templating",
+    "description": "Templating function that is fast, caches quickly, and is easy to use.",
+    "version": "",
+    "homepage": "http://ejohn.org/blog/javascript-micro-templating/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "http://www.manning.com/resig/JavaScriptNinjaSourceCode.zip!/code/07/11.js",
+    "branch": "www.manning.com",
+    "source": [
+      "http://www.manning.com/resig/JavaScriptNinjaSourceCode.zip!/code/07/11.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://ejohn.org/blog/javascript-micro-templating/"
+      }
+    ]
+  },
+  {
+    "name": "mediatizr",
+    "description": "Adds media queries support to incapable browsers",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/mediatizr",
+    "keywords": [
+      "polyfill",
+      "responsive"
+    ],
+    "repo": "pyrsmk/mediatizr",
+    "branch": "master",
+    "source": [
+      "src/mediatizr.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/mediatizr"
+      }
+    ]
+  },
+  {
+    "name": "tweet-templ",
+    "description": "function t(s,d){for(var p in d)s=s.replace(new RegExp('{'+p+'}','g'),d[p]);return s;}",
+    "version": "",
+    "homepage": "http://mir.aculo.us/2011/03/09/little-helpers-a-tweet-sized-javascript-templating-engine/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "function t(s,d){ for(var p in d) s=s.replace(new RegExp('{'+p+'}','g'), d[p]); return s; }",
+    "source": [
+      "function t(s,d){ for(var p in d) s=s.replace(new RegExp('{'+p+'}','g'), d[p]); return s; }"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mir.aculo.us/2011/03/09/little-helpers-a-tweet-sized-javascript-templating-engine/"
+      }
+    ]
+  },
+  {
+    "name": "toast",
+    "description": "A tiny and powerful resource loader",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/toast",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "pyrsmk/toast",
+    "branch": "master",
+    "source": [
+      "src/toast.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/toast"
+      }
+    ]
+  },
+  {
+    "name": "w",
+    "description": "Width management tool for responsive designs",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/W",
+    "keywords": [
+      "responsive"
+    ],
+    "repo": "pyrsmk/W",
+    "branch": "master",
+    "source": [
+      "src/W.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/W"
+      }
+    ]
+  },
+  {
+    "name": "molt",
+    "description": "Image updater for responsive designs",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/molt",
+    "keywords": [
+      "responsive"
+    ],
+    "repo": "pyrsmk/molt",
+    "branch": "master",
+    "source": [
+      "src/molt.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/molt"
+      }
+    ]
+  },
+  {
+    "name": "nut",
+    "description": "The concise CSS selector engine",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/nut",
+    "keywords": [
+      "css"
+    ],
+    "repo": "pyrsmk/nut",
+    "branch": "master",
+    "source": [
+      "src/nut.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/nut"
+      }
+    ]
+  },
+  {
+    "name": "klass",
+    "description": "An expressive, cross platform JavaScript Class provider with a slick, classical interface to prototypal inheritance.",
+    "version": "",
+    "homepage": "https://github.com/ded/klass",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "ded/klass",
+    "branch": "master",
+    "source": [
+      "klass.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/klass"
+      }
+    ]
+  },
+  {
+    "name": "oorja",
+    "description": "OORJa = Object Oriented JavaScript",
+    "version": "",
+    "homepage": "http://maxpert.github.com/oorja/",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "maxpert/oorja",
+    "branch": "master",
+    "source": [
+      "Class.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://maxpert.github.com/oorja/"
+      }
+    ]
+  },
+  {
+    "name": "sheethub",
+    "description": "A CSS backdoor API for providing awesome scripts in a centralized way",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/Sheethub",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "pyrsmk/Sheethub",
+    "branch": "master",
+    "source": [
+      "src/Sheethub.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/Sheethub"
+      }
+    ]
+  },
+  {
+    "name": "milk",
+    "description": "Spec-compatible (v1.1+λ) Mustache templating: written in CoffeeScript, runnable anywhere.",
+    "version": "",
+    "homepage": "https://github.com/pvande/Milk",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "pvande/Milk",
+    "branch": "master",
+    "source": [
+      "dist/v1.2.0/milk.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pvande/Milk"
+      }
+    ]
+  },
+  {
+    "name": "lscache",
+    "description": "A localStorage-based memcache-inspired client-side caching library.",
+    "version": "",
+    "homepage": "https://github.com/pamelafox/lscache",
+    "keywords": [
+      "data",
+      "storage"
+    ],
+    "repo": "pamelafox/lscache",
+    "branch": "master",
+    "source": [
+      "lscache.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pamelafox/lscache"
+      }
+    ]
+  },
+  {
+    "name": "snack",
+    "description": "A tiny, cross-browser, library with DOM manipulation, events, pub/sub, Ajax and language utilities.",
+    "version": "",
+    "homepage": "http://snackjs.com/",
+    "keywords": [
+      "base",
+      "dom",
+      "events",
+      "ajax",
+      "language"
+    ],
+    "repo": "rpflorence/snack",
+    "branch": "master",
+    "source": [
+      "builds/snack.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://snackjs.com/"
+      }
+    ]
+  },
+  {
+    "name": "shinycar",
+    "description": "Set localStorage keys and values as objects",
+    "version": "",
+    "homepage": "https://github.com/Poincare/ShinyCar",
+    "keywords": [
+      "data",
+      "storage"
+    ],
+    "repo": "Poincare/ShinyCar",
+    "branch": "master",
+    "source": [
+      "shinycar.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Poincare/ShinyCar"
+      }
+    ]
+  },
+  {
+    "name": "mold",
+    "description": "Mold is a templating library.",
+    "version": "",
+    "homepage": "http://marijnhaverbeke.nl/mold/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "http://marijnhaverbeke.nl/mold/mold.js",
+    "branch": "marijnhaverbeke.nl",
+    "source": [
+      "http://marijnhaverbeke.nl/mold/mold.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://marijnhaverbeke.nl/mold/"
+      }
+    ]
+  },
+  {
+    "name": "tempo",
+    "description": "Tempo is a JSON rendering engine that enables you to craft data templates in pure HTML.",
+    "version": "",
+    "homepage": "http://twigkit.github.com/tempo/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "twigkit/tempo",
+    "branch": "master",
+    "source": [
+      "tempo.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://twigkit.github.com/tempo/"
+      }
+    ]
+  },
+  {
+    "name": "reqwest",
+    "description": "Robust wrapper for asynchronous http requests.",
+    "version": "",
+    "homepage": "https://github.com/ded/Reqwest",
+    "keywords": [
+      "ajax"
+    ],
+    "repo": "ded/Reqwest",
+    "branch": "master",
+    "source": [
+      "reqwest.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/Reqwest"
+      }
+    ]
+  },
+  {
+    "name": "q",
+    "description": "when/defer-style promises for JavaScript (CommonJS/Promises/A,B,D)",
+    "version": "",
+    "homepage": "https://github.com/kriskowal/q",
+    "keywords": [
+      "functional",
+      "events"
+    ],
+    "repo": "kriskowal/q",
+    "branch": "master",
+    "source": [
+      "q.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/kriskowal/q"
+      }
+    ]
+  },
+  {
+    "name": "sslac",
+    "description": "A (seemingly backwards) JS class builder with support for runtime patching",
+    "version": "",
+    "homepage": "https://github.com/jakobo/sslac",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "Jakobo/Sslac",
+    "branch": "master",
+    "source": [
+      "src/sslac.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jakobo/sslac"
+      }
+    ]
+  },
+  {
+    "name": "kizzy",
+    "description": "Cross Browser caching util leveraging LocalStorage and XML Store with a Memcached interface",
+    "version": "",
+    "homepage": "https://github.com/ded/Kizzy",
+    "keywords": [
+      "data",
+      "storage"
+    ],
+    "repo": "ded/Kizzy",
+    "branch": "master",
+    "source": [
+      "kizzy.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/Kizzy"
+      }
+    ]
+  },
+  {
+    "name": "timed",
+    "description": "Syntactic sugar for JavaScript's setTimeout() and setInterval().",
+    "version": "",
+    "homepage": "https://github.com/ChiperSoft/Timed",
+    "keywords": [
+      "functional",
+      "sugar"
+    ],
+    "repo": "ChiperSoft/Timed",
+    "branch": "master",
+    "source": [
+      "timed.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ChiperSoft/Timed"
+      }
+    ]
+  },
+  {
+    "name": "loadrunner",
+    "description": "Simple, flexible and sane JavaScript loader and build tool for browsers",
+    "version": "",
+    "homepage": "https://github.com/danwrong/loadrunner",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "danwrong/loadrunner",
+    "branch": "master",
+    "source": [
+      "src/loadrunner.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/danwrong/loadrunner"
+      }
+    ]
+  },
+  {
+    "name": "my.class",
+    "description": "Probably the fastest JS class system. No wrappers.",
+    "version": "",
+    "homepage": "https://github.com/jiem/my-class",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "http://myjs.fr/my-class/my.class.js",
+    "branch": "myjs.fr",
+    "source": [
+      "http://myjs.fr/my-class/my.class.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jiem/my-class"
+      }
+    ]
+  },
+  {
+    "name": "observer",
+    "description": "CommonJS implementation of the observer design pattern",
+    "version": "",
+    "homepage": "https://github.com/azer/observer",
+    "keywords": [
+      "observer",
+      "events"
+    ],
+    "repo": "azer/observer",
+    "branch": "master",
+    "source": [
+      "lib/observer.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/azer/observer"
+      }
+    ]
+  },
+  {
+    "name": "my.common",
+    "description": "A CommonJS-like script/module loader.",
+    "version": "",
+    "homepage": "https://github.com/jiem/my-common",
+    "keywords": [
+      "loader",
+      "commonjs"
+    ],
+    "repo": "http://myjs.fr/my-common/my.common.js",
+    "branch": "myjs.fr",
+    "source": [
+      "http://myjs.fr/my-common/my.common.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jiem/my-common"
+      }
+    ]
+  },
+  {
+    "name": "thumbs",
+    "description": "Add touch event support to the desktop and other mouse-based browsers.",
+    "version": "",
+    "homepage": "http://mwbrooks.github.com/thumbs.js/",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "mwbrooks/thumbs.js",
+    "branch": "master",
+    "source": [
+      "lib/thumbs.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mwbrooks.github.com/thumbs.js/"
+      }
+    ]
+  },
+  {
+    "name": "lazyload",
+    "description": "Async JavaScript and CSS loader.",
+    "version": "",
+    "homepage": "https://github.com/rgrove/lazyload",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "rgrove/lazyload",
+    "branch": "master",
+    "source": [
+      "lazyload.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/rgrove/lazyload"
+      }
+    ]
+  },
+  {
+    "name": "valentine",
+    "description": "JavaScripts functional sister providing iterators, type checking, and basic utils",
+    "version": "",
+    "homepage": "https://github.com/ded/valentine",
+    "keywords": [
+      "functional",
+      "language",
+      "data"
+    ],
+    "repo": "ded/valentine",
+    "branch": "master",
+    "source": [
+      "valentine.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/valentine"
+      }
+    ]
+  },
+  {
+    "name": "turtlewax",
+    "description": "LOGO-inspired canvas drawing lib, adds method chaining and polar coordinates for added fun.",
+    "version": "",
+    "homepage": "https://github.com/davebalmer/turtlewax",
+    "keywords": [
+      "canvas",
+      "graphics"
+    ],
+    "repo": "davebalmer/turtlewax",
+    "branch": "master",
+    "source": [
+      "pen.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/davebalmer/turtlewax"
+      }
+    ]
+  },
+  {
+    "name": "picocss",
+    "description": "Basic CSS DOM manipulation and animation optimized for webkit browsers(Safari, Chrome) for building mobile web apps",
+    "version": "",
+    "homepage": "https://github.com/vladocar/picoCSS",
+    "keywords": [
+      "CSS",
+      "CSS3",
+      "mobile"
+    ],
+    "repo": "vladocar/picoCSS",
+    "branch": "master",
+    "source": [
+      "src/picoCSS.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/vladocar/picoCSS"
+      }
+    ]
+  },
+  {
+    "name": "leviroutes",
+    "description": "A basic routes framework for JS that hooks in to HTML5 history",
+    "version": "",
+    "homepage": "http://leviroutes.com",
+    "keywords": [
+      "history",
+      "route",
+      "spa"
+    ],
+    "repo": "PaulKinlan/leviroutes",
+    "branch": "master",
+    "source": [
+      "routes.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://leviroutes.com"
+      }
+    ]
+  },
+  {
+    "name": "objs",
+    "description": "A minimalistic library intended to help in using namespaces and class inheritance in JavaScript.",
+    "version": "",
+    "homepage": "https://github.com/tekool/objs",
+    "keywords": [
+      "language"
+    ],
+    "repo": "tekool/objs",
+    "branch": "master",
+    "source": [
+      "src/Objs.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/tekool/objs"
+      }
+    ]
+  },
+  {
+    "name": "subtlelocationproxy",
+    "description": "Proxy the location of one window, frame or iframe to the hash of another and vice-versa.",
+    "version": "",
+    "homepage": "https://github.com/subtleGradient/SubtleLocationProxy.js",
+    "keywords": [
+      "history",
+      "route",
+      "spa"
+    ],
+    "repo": "subtleGradient/SubtleLocationProxy.js",
+    "branch": "master",
+    "source": [
+      "SubtleLocationProxy.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/subtleGradient/SubtleLocationProxy.js"
+      }
+    ]
+  },
+  {
+    "name": "json.minify",
+    "description": "Strip out // and /*..*/ comments from JSON before parsing.",
+    "version": "",
+    "homepage": "http://github.com/getify/JSON.minify",
+    "keywords": [
+      "json"
+    ],
+    "repo": "getify/JSON.minify",
+    "branch": "master",
+    "source": [
+      "minify.json.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://github.com/getify/JSON.minify"
+      }
+    ]
+  },
+  {
+    "name": "microajax",
+    "description": "Simple AJAX library.",
+    "version": "",
+    "homepage": "http://code.google.com/p/microajax/",
+    "keywords": [
+      "ajax"
+    ],
+    "repo": "http://microajax.googlecode.com/files/microajax.js",
+    "branch": "microajax.googlecode.com",
+    "source": [
+      "http://microajax.googlecode.com/files/microajax.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://code.google.com/p/microajax/"
+      }
+    ]
+  },
+  {
+    "name": "jxhr",
+    "description": "JSON-P based cross-domain Ajax wrapped in the XHR API.",
+    "version": "",
+    "homepage": "http://mulletxhr.com/",
+    "keywords": [
+      "json",
+      "json-p",
+      "xhr",
+      "ajax",
+      "cross-domain"
+    ],
+    "repo": "http://mulletxhr.com/jXHR-0.1.zip!/jXHR.js",
+    "branch": "mulletxhr.com",
+    "source": [
+      "http://mulletxhr.com/jXHR-0.1.zip!/jXHR.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mulletxhr.com/"
+      }
+    ]
+  },
+  {
+    "name": "satisfy",
+    "description": "CSS Selector to HTML generator.",
+    "version": "",
+    "homepage": "https://github.com/padolsey/satisfy",
+    "keywords": [
+      "html",
+      "css",
+      "selector"
+    ],
+    "repo": "padolsey/satisfy",
+    "branch": "master",
+    "source": [
+      "satisfy.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/padolsey/satisfy"
+      }
+    ]
+  },
+  {
+    "name": "mibbu",
+    "description": "Microframework for fast game prototyping using Canvas & DOM",
+    "version": "",
+    "homepage": "https://github.com/michalbe/mibbu",
+    "keywords": [
+      "games",
+      "canvas"
+    ],
+    "repo": "michalbe/mibbu",
+    "branch": "master",
+    "source": [
+      "mibbu.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/michalbe/mibbu"
+      }
+    ]
+  },
+  {
+    "name": "nimble",
+    "description": "Functional flow-control for JavaScript. Combines features of the underscore and async libraries.",
+    "version": "",
+    "homepage": "http://caolan.github.com/nimble/",
+    "keywords": [
+      "functional",
+      "async"
+    ],
+    "repo": "caolan/nimble",
+    "branch": "master",
+    "source": [
+      "nimble.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://caolan.github.com/nimble/"
+      }
+    ]
+  },
+  {
+    "name": "loom",
+    "description": "A simple, four method API for differential inheritance and AOP.",
+    "version": "",
+    "homepage": "https://github.com/rpflorence/loom",
+    "keywords": [
+      "functional"
+    ],
+    "repo": "rpflorence/loom",
+    "branch": "master",
+    "source": [
+      "src/loom.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/rpflorence/loom"
+      }
+    ]
+  },
+  {
+    "name": "jworkflow",
+    "description": "Simple, buildable, repeatable workflows for client or serverside javascript",
+    "version": "",
+    "homepage": "http://github.com/tinyhippos/jWorkflow",
+    "keywords": [
+      "functional",
+      "workflow",
+      "async"
+    ],
+    "repo": "tinyhippos/jWorkflow",
+    "branch": "master",
+    "source": [
+      "lib/jWorkflow.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://github.com/tinyhippos/jWorkflow"
+      }
+    ]
+  },
+  {
+    "name": "include",
+    "description": "A tiny on-demand async javascript loader.",
+    "version": "",
+    "homepage": "http://capmousse.github.com/include.js/",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "CapMousse/include.js",
+    "branch": "master",
+    "source": [
+      "include.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://capmousse.github.com/include.js/"
+      }
+    ]
+  },
+  {
+    "name": "events",
+    "description": "Cross-browser DOM events, with keystroke handling, hashchange, mouseenter/leave.",
+    "version": "",
+    "homepage": "https://github.com/kbjr/Events.js",
+    "keywords": [
+      "events",
+      "dom"
+    ],
+    "repo": "kbjr/Events.js",
+    "branch": "master",
+    "source": [
+      "events.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/kbjr/Events.js"
+      }
+    ]
+  },
+  {
+    "name": "hasher",
+    "description": "Browser history manager for rich-media applications.",
+    "version": "",
+    "homepage": "https://github.com/millermedeiros/Hasher",
+    "keywords": [
+      "spa"
+    ],
+    "repo": "millermedeiros/Hasher",
+    "branch": "master",
+    "source": [
+      "dist/js/hasher.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/millermedeiros/Hasher"
+      }
+    ]
+  },
+  {
+    "name": "filesize",
+    "description": "JavaScript library to generate a human readable String describing the filesize",
+    "version": "",
+    "homepage": "http://filesizejs.com",
+    "keywords": [
+      "math",
+      "language",
+      "amd"
+    ],
+    "repo": "avoidwork/filesize.js",
+    "branch": "master",
+    "source": [
+      "debug/filesize.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://filesizejs.com"
+      }
+    ]
+  },
+  {
+    "name": "js.class",
+    "description": "Class-based OO for JavaScript.",
+    "version": "",
+    "homepage": "http://code.google.com/p/jsclassextend/",
+    "keywords": [
+      "functional",
+      "class",
+      "extend"
+    ],
+    "repo": "http://jsclassextend.googlecode.com/files/js.class.js",
+    "branch": "jsclassextend.googlecode.com",
+    "source": [
+      "http://jsclassextend.googlecode.com/files/js.class.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://code.google.com/p/jsclassextend/"
+      }
+    ]
+  },
+  {
+    "name": "impress",
+    "description": "A presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
+    "version": "",
+    "homepage": "https://github.com/bartaz/impress.js",
+    "keywords": [
+      "animation",
+      "jsanimation",
+      "css",
+      "css3"
+    ],
+    "repo": "bartaz/impress.js",
+    "branch": "master",
+    "source": [
+      "js/impress.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bartaz/impress.js"
+      }
+    ]
+  },
+  {
+    "name": "fermata",
+    "description": "Succinct native REST client, for client-side web apps and node.js. Turns URLs into magic JavaScript objects.",
+    "version": "",
+    "homepage": "https://github.com/natevw/fermata",
+    "keywords": [
+      "ajax"
+    ],
+    "repo": "natevw/fermata",
+    "branch": "master",
+    "source": [
+      "fermata.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/natevw/fermata"
+      }
+    ]
+  },
+  {
+    "name": "jsface",
+    "description": "Small, fast, elegant, powerful, and cross platform OOP library. Support singleton, super call, private, mixins, plugins, AOP and more.",
+    "version": "",
+    "homepage": "https://github.com/tannhu/jsface",
+    "keywords": [
+      "oop",
+      "language",
+      "commonjs",
+      "node",
+      "class"
+    ],
+    "repo": "tannhu/jsface",
+    "branch": "master",
+    "source": [
+      "jsface.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/tannhu/jsface"
+      }
+    ]
+  },
+  {
+    "name": "humane-js",
+    "description": "A simple, modern, browser notification system",
+    "version": "",
+    "homepage": "http://wavded.github.com/humane-js/",
+    "keywords": [
+      "notification",
+      "alert"
+    ],
+    "repo": "wavded/humane-js",
+    "branch": "master",
+    "source": [
+      "humane.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://wavded.github.com/humane-js/"
+      }
+    ]
+  },
+  {
+    "name": "jaylist",
+    "description": "A simple wrapper for JavaScript's built-in hash storage.",
+    "version": "",
+    "homepage": "http://benbscholz.github.com/jaylist",
+    "keywords": [
+      "functional",
+      "extend",
+      "data"
+    ],
+    "repo": "benbscholz/jaylist",
+    "branch": "master",
+    "source": [
+      "src/jaylist.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://benbscholz.github.com/jaylist"
+      }
+    ]
+  },
+  {
+    "name": "ext-core",
+    "description": "Ext JS is the developer's choice for building powerful desktop web applications using JavaScript and web standards.",
+    "version": "3.1.0",
+    "homepage": "http://www.sencha.com/products/extjs/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "desktop",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "ext-core.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://www.sencha.com/products/extjs/"
+      }
+    ]
+  },
+  {
+    "name": "h5f",
+    "description": "Adds support for HTML5 Forms chapters new field input types, attributes and constraint validation API in non-supporting browsers.",
+    "version": "",
+    "homepage": "https://github.com/ryanseddon/H5F",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "ryanseddon/H5F",
+    "branch": "master",
+    "source": [
+      "h5f.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ryanseddon/H5F"
+      }
+    ]
+  },
+  {
+    "name": "formfactorjs",
+    "description": "A formfactor detection library, to help developers target tablet, tvs, desktops and handhelds (or anything you choose)",
+    "version": "",
+    "homepage": "http://formfactorjs.com",
+    "keywords": [
+      "formfactor",
+      "loader"
+    ],
+    "repo": "PaulKinlan/formfactor",
+    "branch": "master",
+    "source": [
+      "formfactor.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://formfactorjs.com"
+      }
+    ]
+  },
+  {
+    "name": "head-js",
+    "description": "An asynchronous loader library, with HTML5 and CSS3 polyfills",
+    "version": "",
+    "homepage": "http://headjs.com/",
+    "keywords": [
+      "loader",
+      "polyfill",
+      "feature"
+    ],
+    "repo": "headjs/headjs",
+    "branch": "master",
+    "source": [
+      "dist/head.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://headjs.com/"
+      }
+    ]
+  },
+  {
+    "name": "fancybox",
+    "description": "fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built at the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.",
+    "version": "2.0.4",
+    "homepage": "http://fancyapps.com/fancybox/",
+    "keywords": [
+      "fancybox",
+      "jquery",
+      "images",
+      "image",
+      "zoom",
+      "zooming"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.fancybox.pack.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/fancyapps/fancyBox"
+      }
+    ]
+  },
+  {
+    "name": "flexie",
+    "description": "Cross-browser support for the CSS3 Flexible Box Model.",
+    "version": "1.0.0",
+    "homepage": "http://flexiejs.com/",
+    "keywords": [
+      "css",
+      "css3",
+      "flexible",
+      "box",
+      "model",
+      "polyfill",
+      "flexbox"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "flexie.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/doctyper/flexie"
+      }
+    ]
+  },
+  {
+    "name": "flot",
+    "description": "Attractive Javascript plotting for jQuery",
+    "version": "0.7",
+    "homepage": "http://code.google.com/p/flot/",
+    "keywords": [
+      "jquery",
+      "plot",
+      "chart",
+      "graph",
+      "visualization",
+      "canvas",
+      "graphics",
+      "web"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.flot.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/flot/flot"
+      }
+    ]
+  },
+  {
+    "name": "galleria",
+    "description": "The JavaScript Image Gallery.",
+    "version": "1.2.6",
+    "homepage": "http://galleria.aino.se",
+    "keywords": [
+      "gallery",
+      "framework",
+      "jquery",
+      "slideshow",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "galleria.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/aino/galleria"
+      }
+    ]
+  },
+  {
+    "name": "functools",
+    "description": "A library for functional operations",
+    "version": "",
+    "homepage": "https://github.com/azer/functools",
+    "keywords": [
+      "functional"
+    ],
+    "repo": "azer/functools",
+    "branch": "master",
+    "source": [
+      "lib/functools.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/azer/functools"
+      }
+    ]
+  },
+  {
+    "name": "htmlentities",
+    "description": "A minimal html entities decoder/encoder using DOM.",
+    "version": "",
+    "homepage": "https://github.com/jussi-kalliokoski/htmlentities.js",
+    "keywords": [
+      "htmlentities",
+      "decode",
+      "encode",
+      "dom"
+    ],
+    "repo": "jussi-kalliokoski/htmlentities.js",
+    "branch": "master",
+    "source": [
+      "src/htmlentities.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jussi-kalliokoski/htmlentities.js"
+      }
+    ]
+  },
+  {
+    "name": "graphael",
+    "description": "gRaphael's goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.",
+    "version": "0.4.1",
+    "homepage": "http://g.raphaeljs.com/",
+    "keywords": [
+      "chart",
+      "charts",
+      "charting",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "g.raphael-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/DmitryBaranovskiy/g.raphael/"
+      }
+    ]
+  },
+  {
+    "name": "fayer",
+    "description": "Easily kick-off page specific JavaScript.",
+    "version": "",
+    "homepage": "https://github.com/sandeepjain/fayer",
+    "keywords": [
+      "functional"
+    ],
+    "repo": "sandeepjain/fayer",
+    "branch": "master",
+    "source": [
+      "src/fayer.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/sandeepjain/fayer"
+      }
+    ]
+  },
+  {
+    "name": "hsi",
+    "description": "A small RGB &lt;-&gt; HSI converter.",
+    "version": "",
+    "homepage": "https://github.com/e-/hsi.js",
+    "keywords": [
+      "color"
+    ],
+    "repo": "e-/hsi.js",
+    "branch": "master",
+    "source": [
+      "hsi.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/e-/hsi.js"
+      }
+    ]
+  },
+  {
+    "name": "handlebars.js",
+    "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.",
+    "version": "1.0.0.beta2",
+    "homepage": "http://www.handlebarsjs.com",
+    "keywords": [
+      "template",
+      "mustache"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "handlebars.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/wycats/handlebars.js"
+      }
+    ]
+  },
+  {
+    "name": "happen",
+    "description": "General purpose event triggering",
+    "version": "",
+    "homepage": "https://github.com/tmcw/happen",
+    "keywords": [
+      "events"
+    ],
+    "repo": "tmcw/happen",
+    "branch": "master",
+    "source": [
+      "src/happen.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/tmcw/happen"
+      }
+    ]
+  },
+  {
+    "name": "headjs",
+    "description": "Load scripts like images. Use HTML5 and CSS3 safely. Target CSS for different screens, paths, states and browsers. Make it the only script in your HEAD. A concise solution to universal issues.",
+    "version": "0.96",
+    "homepage": "http://headjs.com/",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "head.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/headjs/headjs"
+      }
+    ]
+  },
+  {
+    "name": "evidence",
+    "description": "Evidence is a JavaScript unit testing library. This fork exclusively uses the console to log.",
+    "version": "",
+    "homepage": "https://github.com/madrobby/evidence",
+    "keywords": [
+      "testing"
+    ],
+    "repo": "madrobby/evidence",
+    "branch": "master",
+    "source": [
+      "src/evidence.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/madrobby/evidence"
+      }
+    ]
+  },
+  {
+    "name": "highcharts",
+    "description": "Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license",
+    "version": "2.1.6",
+    "homepage": "http://highcharts.com/",
+    "keywords": [
+      "charts",
+      "graphs"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "highcharts.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://highcharts.com/"
+      }
+    ]
+  },
+  {
+    "name": "html5shiv",
+    "description": "html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements",
+    "version": "r29",
+    "homepage": "http://code.google.com/p/html5shiv/",
+    "keywords": [
+      "shim",
+      "ie",
+      "html5"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "html5.js"
+    ],
+    "repositories": [
+      {
+        "type": "svn",
+        "url": "http://html5shiv.googlecode.com/svn/trunk/"
+      }
+    ]
+  },
+  {
+    "name": "javascript-state-machine",
+    "description": "A finite state machine javascript micro framework.",
+    "version": "2.0.0",
+    "homepage": "https://github.com/jakesgordon/javascript-state-machine",
+    "keywords": [
+      "state-machine",
+      "fsm"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "state-machine.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jakesgordon/javascript-state-machine"
+      }
+    ]
+  },
+  {
+    "name": "jquery",
+    "description": "jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.",
+    "version": "1.7.1",
+    "homepage": "http://jquery.com/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://jquery.com/"
+      }
+    ]
+  },
+  {
+    "name": "jquery-easing",
+    "description": "Additional easings for jQuery.",
+    "version": "1.3",
+    "homepage": "http://gsgd.co.uk/sandbox/jquery/easing/",
+    "keywords": [
+      "jquery",
+      "easing"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.easing.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "plain file",
+        "url": "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+      }
+    ]
+  },
+  {
+    "name": "firmin",
+    "description": "Animation library that uses CSS transforms and transitions to create smooth, hardware-accelerated animations.",
+    "version": "",
+    "homepage": "http://extralogical.net/projects/firmin/",
+    "keywords": [
+      "animation",
+      "webkit"
+    ],
+    "repo": "http://extralogical.net/projects/firmin/downloads/firmin-1.0.0.js",
+    "branch": "extralogical.net",
+    "source": [
+      "http://extralogical.net/projects/firmin/downloads/firmin-1.0.0.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://extralogical.net/projects/firmin/"
+      }
+    ]
+  },
+  {
+    "name": "jquery-throttle-debounce",
+    "description": "jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways.",
+    "version": "1.1",
+    "homepage": "https://github.com/cowboy/jquery-throttle-debounce",
+    "keywords": [
+      "jquery",
+      "throttle",
+      "debounce",
+      "ratelimit"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.ba-throttle-debounce.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/cowboy/jquery-throttle-debounce.git"
+      }
+    ]
+  },
+  {
+    "name": "jquery-tools",
+    "description": "jQuery Tools is a collection of the most important user-interface components for modern websites. Used by large sites all over the world.",
+    "version": "1.2.6",
+    "homepage": "http://flowplayer.org/tools/index.html",
+    "keywords": [
+      "jquery",
+      "ui",
+      "tools"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.tools.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jquerytools/jquerytools"
+      }
+    ]
+  },
+  {
+    "name": "jaml",
+    "description": "Jaml tries to emulate Ruby’s Haml library, making it easy to generate HTML in your JavaScript projects.",
+    "version": "",
+    "homepage": "http://edspencer.github.com/jaml/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "edspencer/jaml",
+    "branch": "master",
+    "source": [
+      "Jaml-all.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://edspencer.github.com/jaml/"
+      }
+    ]
+  },
+  {
+    "name": "jquery.cycle",
+    "description": "Cycle is an easy-to-use slideshow plugin that provides many options and effects for creating beautiful slideshows.",
+    "version": "2.99",
+    "homepage": "http://jquery.malsup.com/cycle/",
+    "keywords": [
+      "jquery",
+      "slideshow",
+      "cycle"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.cycle.all.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/malsup/cycle"
+      }
+    ]
+  },
+  {
+    "name": "jaguar",
+    "description": "A lightweight, extensible, and fast selector engine with excellent support for matchesSelector(), commonly used in event delegation. Jaguar supports all CSS1, CSS2, and most CSS3 selectors.",
+    "version": "",
+    "homepage": "https://github.com/alpha123/Jaguar",
+    "keywords": [
+      "css"
+    ],
+    "repo": "alpha123/Jaguar",
+    "branch": "master",
+    "source": [
+      "src/jaguar.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/alpha123/Jaguar"
+      }
+    ]
+  },
+  {
+    "name": "hex/rgb",
+    "description": "Two way color conversion for Hexadecimal and RGB integer colors",
+    "version": "",
+    "homepage": "https://github.com/daniellmb/HEX-RGB-Conversion",
+    "keywords": [
+      "color"
+    ],
+    "repo": "daniellmb/HEX-RGB-Conversion",
+    "branch": "master",
+    "source": [
+      "hex-rgb.src.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/daniellmb/HEX-RGB-Conversion"
+      }
+    ]
+  },
+  {
+    "name": "jqueryui",
+    "description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+    "version": "1.8.16",
+    "homepage": "http://jqueryui.com/",
+    "keywords": [
+      "ui",
+      "themeing",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery-ui.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jquery/jquery-ui"
+      }
+    ]
+  },
+  {
+    "name": "js-signals",
+    "description": "Custom Event/Messaging system for JavaScript.",
+    "version": "0.6.1",
+    "homepage": "http://millermedeiros.github.com/js-signals/",
+    "keywords": [
+      "event",
+      "messaging",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "js-signals.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/millermedeiros/js-signals"
+      }
+    ]
+  },
+  {
+    "name": "hypher",
+    "description": "Fast and small hyphenation engine for Node.js and the browser",
+    "version": "",
+    "homepage": "https://github.com/bramstein/Hypher",
+    "keywords": [
+      "hyphenation"
+    ],
+    "repo": "bramstein/Hypher",
+    "branch": "master",
+    "source": [
+      "lib/hypher.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bramstein/Hypher"
+      }
+    ]
+  },
+  {
+    "name": "gset",
+    "description": "Share and control public proxies of private objects, with same-name getter/setters.",
+    "version": "",
+    "homepage": "https://github.com/bemson/GSet/",
+    "keywords": [
+      "data",
+      "compose"
+    ],
+    "repo": "bemson/GSet",
+    "branch": "master",
+    "source": [
+      "src/gset.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bemson/GSet/"
+      }
+    ]
+  },
+  {
+    "name": "janis",
+    "description": "A simple CSS Transitions animation framework",
+    "version": "",
+    "homepage": "http://mikemctiernan.github.com/Janis/",
+    "keywords": [
+      "animation",
+      "ui",
+      "transitions"
+    ],
+    "repo": "MikeMcTiernan/Janis",
+    "branch": "master",
+    "source": [
+      "janis.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mikemctiernan.github.com/Janis/"
+      }
+    ]
+  },
+  {
+    "name": "extend",
+    "description": "A simple way to define and extend namespaces",
+    "version": "",
+    "homepage": "https://github.com/searls/extend.js",
+    "keywords": [
+      "base",
+      "language",
+      "feature"
+    ],
+    "repo": "searls/extend.js",
+    "branch": "master",
+    "source": [
+      "src/extend.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/searls/extend.js"
+      }
+    ]
+  },
+  {
+    "name": "gendata",
+    "description": "A normalization pattern to build, query, and manipulate everything.",
+    "version": "",
+    "homepage": "https://github.com/bemson/genData/",
+    "keywords": [
+      "data"
+    ],
+    "repo": "bemson/genData",
+    "branch": "master",
+    "source": [
+      "src/gendata.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/bemson/genData/"
+      }
+    ]
+  },
+  {
+    "name": "gowiththeflow",
+    "description": "Async flow control micro library for node and browser.",
+    "version": "",
+    "homepage": "https://github.com/jeromeetienne/gowiththeflow.js",
+    "keywords": [
+      "functional",
+      "async",
+      "defered"
+    ],
+    "repo": "jeromeetienne/gowiththeflow.js",
+    "branch": "master",
+    "source": [
+      "gowiththeflow.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeromeetienne/gowiththeflow.js"
+      }
+    ]
+  },
+  {
+    "name": "augment",
+    "description": "Enables use of modern JavaScript by augmenting built in objects with the latest JavaScript methods.",
+    "version": "",
+    "homepage": "http://augmentjs.com",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "olivernn/augment.js",
+    "branch": "master",
+    "source": [
+      "augment.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://augmentjs.com"
+      }
+    ]
+  },
+  {
+    "name": "environ",
+    "description": "Cross platform environment detection library.",
+    "version": "",
+    "homepage": "https://github.com/azer/environ",
+    "keywords": [
+      "feature"
+    ],
+    "repo": "azer/environ",
+    "branch": "master",
+    "source": [
+      "lib/environ.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/azer/environ"
+      }
+    ]
+  },
+  {
+    "name": "es5-shim",
+    "description": "Provides compatibility shims so that legacy JavaScript engines behave as closely as possible to ES5.",
+    "version": "1.2.4",
+    "homepage": "https://github.com/kriskowal/es5-shim",
+    "keywords": [
+      "es5",
+      "ECMAScript 5",
+      "shim",
+      "compatibility",
+      "modernization"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "es5-shim.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/kriskowal/es5-shim"
+      }
+    ]
+  },
+  {
+    "name": "eventemitter",
+    "description": "Evented JavaScript for the browser",
+    "version": "",
+    "homepage": "https://github.com/Wolfy87/EventEmitter",
+    "keywords": [
+      "events"
+    ],
+    "repo": "Wolfy87/EventEmitter",
+    "branch": "master",
+    "source": [
+      "src/EventEmitter.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Wolfy87/EventEmitter"
+      }
+    ]
+  },
+  {
+    "name": "140medley",
+    "description": "A micro-framework or a collection of small, helpful utilities for common javascript tasks.",
+    "version": "",
+    "homepage": "https://github.com/honza/140medley",
+    "keywords": [
+      "dom",
+      "selector",
+      "events",
+      "templating",
+      "ajax",
+      "storage"
+    ],
+    "repo": "honza/140medley",
+    "branch": "master",
+    "source": [
+      "140medley.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/honza/140medley"
+      }
+    ]
+  },
+  {
+    "name": "dombrew",
+    "description": "Clean API high performance DOM builder",
+    "version": "",
+    "homepage": "https://github.com/glebm/DOMBrew",
+    "keywords": [
+      "dom",
+      "dom-builder"
+    ],
+    "repo": "glebm/DOMBrew",
+    "branch": "master",
+    "source": [
+      "dombrew.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/glebm/DOMBrew"
+      }
+    ]
+  },
+  {
+    "name": "dragdrop",
+    "description": "Drag-and-Drop functionality for advanced UI development.",
+    "version": "",
+    "homepage": "https://github.com/kbjr/DragDrop",
+    "keywords": [
+      "dragdrop",
+      "ui"
+    ],
+    "repo": "kbjr/DragDrop",
+    "branch": "master",
+    "source": [
+      "drag-drop.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/kbjr/DragDrop"
+      }
+    ]
+  },
+  {
+    "name": "dot",
+    "description": "The fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.",
+    "version": "",
+    "homepage": "https://github.com/olado/doT",
+    "keywords": [
+      "nodejs",
+      "browsers",
+      "templating",
+      "partials",
+      "custom delimiters"
+    ],
+    "repo": "https://github.com/olado/doT/raw/master/doT.js",
+    "branch": "github.com",
+    "source": [
+      "https://github.com/olado/doT/raw/master/doT.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/olado/doT"
+      }
+    ]
+  },
+  {
+    "name": "draggable",
+    "description": "Make your dom elements draggable easily.",
+    "version": "",
+    "homepage": "http://gtramontina.github.com/draggable.js/",
+    "keywords": [
+      "dom",
+      "css",
+      "css3",
+      "amd"
+    ],
+    "repo": "gtramontina/draggable.js",
+    "branch": "master",
+    "source": [
+      "draggable.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://gtramontina.github.com/draggable.js/"
+      }
+    ]
+  },
+  {
+    "name": "ekho",
+    "description": "DOM-agnostic event library, with bubbling.",
+    "version": "",
+    "homepage": "https://bitbucket.org/killdream/ekho",
+    "keywords": [
+      "events"
+    ],
+    "repo": "https://bitbucket.org/killdream/ekho/raw/tip/src/ekho.js",
+    "branch": "bitbucket.org",
+    "source": [
+      "https://bitbucket.org/killdream/ekho/raw/tip/src/ekho.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://bitbucket.org/killdream/ekho"
+      }
+    ]
+  },
+  {
+    "name": "ember.js",
+    "description": "Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.",
+    "version": "0.9.4",
+    "homepage": "http://emberjs.com/",
+    "keywords": [
+      "ember",
+      "ember.js"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "ember-0.9.4.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/emberjs/ember.js"
+      }
+    ]
+  },
+  {
+    "name": "dropinrequire",
+    "description": "dropin replacement for require() in browser.",
+    "version": "",
+    "homepage": "http://jeromeetienne.github.com/dropinrequire.js/",
+    "keywords": [
+      "loader",
+      "commonjs",
+      "require",
+      "node"
+    ],
+    "repo": "jeromeetienne/dropinrequire.js",
+    "branch": "master",
+    "source": [
+      "dropin_require.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://jeromeetienne.github.com/dropinrequire.js/"
+      }
+    ]
+  },
+  {
+    "name": "dombuilder",
+    "description": "Declarative builder with (mostly) interchangeable DOM or HTML output",
+    "version": "",
+    "homepage": "https://github.com/insin/DOMBuilder",
+    "keywords": [
+      "dom",
+      "html"
+    ],
+    "repo": "insin/DOMBuilder",
+    "branch": "master",
+    "source": [
+      "dist/DOMBuilder.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/insin/DOMBuilder"
+      }
+    ]
+  },
+  {
+    "name": "editrjs",
+    "description": "A very simple image editing library with a chainable api.",
+    "version": "",
+    "homepage": "https://github.com/narfdre/Editr",
+    "keywords": [
+      "manipulation",
+      "image",
+      "editing"
+    ],
+    "repo": "narfdre/Editr",
+    "branch": "master",
+    "source": [
+      "Editr-src.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/narfdre/Editr"
+      }
+    ]
+  },
+  {
+    "name": "domready",
+    "description": "Lets you know when the DOM is ready",
+    "version": "",
+    "homepage": "https://github.com/ded/domready",
+    "keywords": [
+      "dom",
+      "events"
+    ],
+    "repo": "ded/domready",
+    "branch": "master",
+    "source": [
+      "ready.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/domready"
+      }
+    ]
+  },
+  {
+    "name": "ender",
+    "description": "An open, powerful, micro-to-macro API for composing your own custom JavaScript library.",
+    "version": "",
+    "homepage": "http://ender.no.de",
+    "keywords": [
+      "compose",
+      "base",
+      "mobile"
+    ],
+    "repo": "ender-js/ender-js",
+    "branch": "master",
+    "source": [
+      "ender.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://ender.no.de"
+      }
+    ]
+  },
+  {
+    "name": "buildsugar",
+    "description": "Bizarrely clean & simple syntax sugar for building HTML/XML strings",
+    "version": "",
+    "homepage": "http://jsfiddle.net/SubtleGradient/4W3RR/",
+    "keywords": [
+      "templating"
+    ],
+    "repo": "gist/278016",
+    "branch": "BuildSugar.SubtleGradient.js",
+    "source": [
+      ""
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://jsfiddle.net/SubtleGradient/4W3RR/"
+      }
+    ]
+  },
+  {
+    "name": "ace",
+    "description": "Ace is a standalone code editor written in JavaScript.",
+    "version": "0.2.0",
+    "homepage": "http://ace.ajax.org/",
+    "keywords": [
+      "code",
+      "editor"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "ace.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ajaxorg/ace/"
+      }
+    ]
+  },
+  {
+    "name": "audio-fx",
+    "description": "A HTML5 Audio Library",
+    "version": "",
+    "homepage": "https://github.com/jakesgordon/javascript-audio-fx",
+    "keywords": [
+      "audio",
+      "games"
+    ],
+    "repo": "jakesgordon/javascript-audio-fx",
+    "branch": "master",
+    "source": [
+      "audio-fx.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jakesgordon/javascript-audio-fx"
+      }
+    ]
+  },
+  {
+    "name": "director",
+    "description": "A lightweight, full featured client side router for single page apps.",
+    "version": "",
+    "homepage": "https://github.com/flatiron/director",
+    "keywords": [
+      "spa"
+    ],
+    "repo": "flatiron/director",
+    "branch": "master",
+    "source": [
+      "build/director-1.0.7.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/flatiron/director"
+      }
+    ]
+  },
+  {
+    "name": "classy",
+    "description": "Classy is a small JavaScript library that implements Python inspired classes for JavaScript.",
+    "version": "",
+    "homepage": "http://classy.pocoo.org/",
+    "keywords": [
+      "language",
+      "class"
+    ],
+    "repo": "mitsuhiko/classy",
+    "branch": "master",
+    "source": [
+      "classy.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://classy.pocoo.org/"
+      }
+    ]
+  },
+  {
+    "name": "bacon",
+    "description": "Detects a mobile browser",
+    "version": "",
+    "homepage": "https://github.com/tajjyarden/bacon.js",
+    "keywords": [
+      "mobile"
+    ],
+    "repo": "tajjyarden/bacon.js",
+    "branch": "master",
+    "source": [
+      "bacon.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/tajjyarden/bacon.js"
+      }
+    ]
+  },
+  {
+    "name": "cookie-monster",
+    "description": "A lightweight cookie library",
+    "version": "",
+    "homepage": "https://github.com/jgallen23/cookie-monster",
+    "keywords": [
+      "cookies",
+      "data",
+      "store"
+    ],
+    "repo": "jgallen23/cookie-monster",
+    "branch": "master",
+    "source": [
+      "dist/monster.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jgallen23/cookie-monster"
+      }
+    ]
+  },
+  {
+    "name": "artemia",
+    "description": "Artemia is a clientside document store, inspired by Lawnchair.",
+    "version": "",
+    "homepage": "https://github.com/k33g/artemia/",
+    "keywords": [
+      "data",
+      "storage"
+    ],
+    "repo": "k33g/artemia",
+    "branch": "master",
+    "source": [
+      "js/artemia.js",
+      "js/adaptors.plugins/artemia.storage.js",
+      "js/adaptors.plugins/artemia.sqlite.storage.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/k33g/artemia/"
+      }
+    ]
+  },
+  {
+    "name": "backbone-localstorage.js",
+    "description": "A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.",
+    "version": "1.0",
+    "homepage": "https://github.com/jeromegn/Backbone.localStorage",
+    "keywords": [
+      "localstorage",
+      "backbone"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "backbone.localStorage-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jeromegn/Backbone.localStorage"
+      }
+    ]
+  },
+  {
+    "name": "colorspaces",
+    "description": "Convert between RGB and several CIE color spaces for smarter color manipulation.",
+    "version": "",
+    "homepage": "http://boronine.github.com/colorspaces.js",
+    "keywords": [
+      "color"
+    ],
+    "repo": "boronine/colorspaces.js",
+    "branch": "master",
+    "source": [
+      "colorspaces.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://boronine.github.com/colorspaces.js"
+      }
+    ]
+  },
+  {
+    "name": "c-qwncr",
+    "description": "An animation sequencing library that prevents complex animations from starting again before they've completed.",
+    "version": "",
+    "homepage": "https://github.com/vsa-partners/c-qwncr",
+    "keywords": [
+      "async",
+      "animation",
+      "jsanimation"
+    ],
+    "repo": "vsa-partners/c-qwncr",
+    "branch": "master",
+    "source": [
+      "js/c-qwncr.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/vsa-partners/c-qwncr"
+      }
+    ]
+  },
+  {
+    "name": "binary",
+    "description": "A fast, small, robust and extensible binary conversion library.",
+    "version": "",
+    "homepage": "https://github.com/jussi-kalliokoski/binary.js",
+    "keywords": [
+      "binary",
+      "decode",
+      "encode"
+    ],
+    "repo": "jussi-kalliokoski/binary.js",
+    "branch": "master",
+    "source": [
+      "binarystream.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jussi-kalliokoski/binary.js"
+      }
+    ]
+  },
+  {
+    "name": "defer",
+    "description": "Script loader, using the 'Deferred' pattern for async operations.",
+    "version": "",
+    "homepage": "https://github.com/BorisMoore/jsdefer/",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "BorisMoore/jsdefer",
+    "branch": "master",
+    "source": [
+      "jsdefer.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/BorisMoore/jsdefer/"
+      }
+    ]
+  },
+  {
+    "name": "bean",
+    "description": "Bean is a slick, cross-platform, framework-agnostic event utility designed for desktop, mobile, and touch-based browsers. ",
+    "version": "",
+    "homepage": "https://github.com/fat/bean",
+    "keywords": [
+      "events",
+      "dom"
+    ],
+    "repo": "fat/bean",
+    "branch": "master",
+    "source": [
+      "bean.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/fat/bean"
+      }
+    ]
+  },
+  {
+    "name": "bootstrap",
+    "description": "A small, simple bootloader. No frills. Black and white label.",
+    "version": "",
+    "homepage": "https://bitbucket.org/scott_koon/bootstrap",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "https://bitbucket.org/scott_koon/bootstrap/raw/default/bootstrap.js",
+    "branch": "bitbucket.org",
+    "source": [
+      "https://bitbucket.org/scott_koon/bootstrap/raw/default/bootstrap.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://bitbucket.org/scott_koon/bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "bonzo",
+    "description": "Hassle-free, library agnostic, extensible DOM utility.",
+    "version": "",
+    "homepage": "https://github.com/ded/bonzo",
+    "keywords": [
+      "dom"
+    ],
+    "repo": "ded/bonzo",
+    "branch": "master",
+    "source": [
+      "bonzo.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/bonzo"
+      }
+    ]
+  },
+  {
+    "name": "backbone.js",
+    "description": "Backbone supplies structure to JavaScript-heavy applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing application over a RESTful JSON interface.",
+    "version": "0.9.1",
+    "homepage": "http://documentcloud.github.com/backbone/",
+    "keywords": [
+      "collections",
+      "models",
+      "controllers",
+      "events",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "backbone-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/documentcloud/backbone"
+      }
+    ]
+  },
+  {
+    "name": "async-ga",
+    "description": "Reduced Google's original analytics snippet by one third, with better performance.",
+    "version": "",
+    "homepage": "http://mathiasbynens.be/notes/async-analytics-snippet",
+    "keywords": [
+      "analytics"
+    ],
+    "repo": "var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];(function(d, t) {var g = d.createElement(t),s = d.getElementsByTagName(t)[0];g.src = '//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g, s);}(document, 'script'));",
+    "branch": "www.google-analytics.com",
+    "source": [
+      "var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];(function(d, t) {var g = d.createElement(t),s = d.getElementsByTagName(t)[0];g.src = '//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g, s);}(document, 'script'));"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mathiasbynens.be/notes/async-analytics-snippet"
+      }
+    ]
+  },
+  {
+    "name": "cssfx",
+    "description": "Standalone polyfill that inserts the vendor-specific CSS3 properties necessary for old and new browsers.",
+    "version": "",
+    "homepage": "http://imsky.github.com/cssFx/",
+    "keywords": [
+      "css",
+      "css3",
+      "polyfill"
+    ],
+    "repo": "imsky/cssFx",
+    "branch": "master",
+    "source": [
+      "cssfx.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://imsky.github.com/cssFx/"
+      }
+    ]
+  },
+  {
+    "name": "aug",
+    "description": "A object extend utility",
+    "version": "",
+    "homepage": "https://github.com/jgallen23/aug",
+    "keywords": [
+      "extend",
+      "augment"
+    ],
+    "repo": "jgallen23/aug",
+    "branch": "master",
+    "source": [
+      "dist/aug.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jgallen23/aug"
+      }
+    ]
+  },
+  {
+    "name": "date-utils",
+    "description": "Lightweight Date Polyfill with a lot of flexibility.",
+    "version": "",
+    "homepage": "https://github.com/JerrySievert/node-date-utils",
+    "keywords": [
+      "date",
+      "polyfill"
+    ],
+    "repo": "JerrySievert/node-date-utils",
+    "branch": "master",
+    "source": [
+      "lib/date-utils.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/JerrySievert/node-date-utils"
+      }
+    ]
+  },
+  {
+    "name": "dojo",
+    "description": "Dojo saves you time, delivers powerful performance, and scales with your development process. It’s the toolkit experienced developers turn to for building superior desktop and mobile web experiences.",
+    "version": "1.6.0",
+    "homepage": "http://dojotoolkit.org/",
+    "keywords": [
+      "framework",
+      "toolkit",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "dojo.xd.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://dojotoolkit.org/"
+      }
+    ]
+  },
+  {
+    "name": "color",
+    "description": "Color conversion functions for switching between hex decimal, RGB, names and arrays.",
+    "version": "",
+    "homepage": "https://github.com/Wolfy87/Color",
+    "keywords": [
+      "color"
+    ],
+    "repo": "Wolfy87/Color",
+    "branch": "master",
+    "source": [
+      "color.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Wolfy87/Color"
+      }
+    ]
+  },
+  {
+    "name": "classie",
+    "description": "ClassIE is an unobstrusive library which detects Internet Explorer version for JS and CSS sides",
+    "version": "",
+    "homepage": "https://github.com/pyrsmk/ClassIE",
+    "keywords": [
+      "feature"
+    ],
+    "repo": "pyrsmk/ClassIE",
+    "branch": "master",
+    "source": [
+      "src/ClassIE.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/pyrsmk/ClassIE"
+      }
+    ]
+  },
+  {
+    "name": "documentup",
+    "description": "Pretty documentation generator for Github projects with proper Readme.",
+    "version": "0.1.1",
+    "homepage": "http://documentup.com",
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "documentup.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://documentup.com"
+      }
+    ]
+  },
+  {
+    "name": "dd_belatedpng",
+    "description": "Allows the use of transparent PNGs in images and CSS backgrounds in IE6.",
+    "version": "0.0.8",
+    "homepage": "http://www.dillerdesign.com/experiment/DD_belatedPNG/",
+    "keywords": [
+      "ie6",
+      "png"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "dd_belatedpng.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://www.dillerdesign.com/experiment/DD_belatedPNG/"
+      }
+    ]
+  },
+  {
+    "name": "asevented",
+    "description": "Micro event emitter which provides the observer pattern to JavaScript objects.",
+    "version": "",
+    "homepage": "https://github.com/mkuklis/asEvented",
+    "keywords": [
+      "events",
+      "functional"
+    ],
+    "repo": "mkuklis/asEvented",
+    "branch": "master",
+    "source": [
+      "asevented.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/mkuklis/asEvented"
+      }
+    ]
+  },
+  {
+    "name": "davis.js",
+    "description": "Davis.js is a small JavaScript library using HTML5 history.pushState that allows simple Sinatra style routing for your JavaScript apps.",
+    "version": "0.7.0",
+    "homepage": "http://davisjs.com",
+    "keywords": [
+      "routing",
+      "pushState",
+      "restful"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "davis.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/olivernn/davis.js"
+      }
+    ]
+  },
+  {
+    "name": "datejs",
+    "description": "Datejs is an open source JavaScript Date library for parsing, formatting and processing.",
+    "version": "1.0",
+    "homepage": "http://www.datejs.com",
+    "keywords": [
+      "date",
+      "datetime",
+      "time",
+      "parser"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "date.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "Google SVN",
+        "url": "http://code.google.com/p/datejs/source"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/datejs/Datejs"
+      }
+    ]
+  },
+  {
+    "name": "callbacks",
+    "description": "Event dispatching, can be used either as static or instance based.",
+    "version": "",
+    "homepage": "https://github.com/dperrymorrow/callbacks.js",
+    "keywords": [
+      "events",
+      "dispatcher",
+      "static",
+      "callbacks"
+    ],
+    "repo": "dperrymorrow/callbacks.js",
+    "branch": "master",
+    "source": [
+      "callbacks-min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/dperrymorrow/callbacks.js"
+      }
+    ]
+  },
+  {
+    "name": "d3",
+    "description": "A small, free JavaScript library for manipulating documents based on data.",
+    "version": "2.7.4",
+    "homepage": "http://mbostock.github.com/d3/",
+    "keywords": [
+      "dom",
+      "w3c",
+      "visualization",
+      "svg",
+      "animation",
+      "canvas"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "d3.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://mbostock.github.com/d3/"
+      }
+    ]
+  },
+  {
+    "name": "blueshell",
+    "description": "A microlibrary for inheritance with prototypal inheritance tools allowing class-like construction.",
+    "version": "",
+    "homepage": "https://github.com/jgnewman/blueshell",
+    "keywords": [
+      "inheritance",
+      "prototype",
+      "class"
+    ],
+    "repo": "jgnewman/blueshell",
+    "branch": "master",
+    "source": [
+      "js/blueshell.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jgnewman/blueshell"
+      }
+    ]
+  },
+  {
+    "name": "ancestry",
+    "description": "Simple, yet powerful inheritance library to make polymorphism and super-constructors work propertly.",
+    "version": "",
+    "homepage": "https://github.com/jasonwyatt/ancestry.js",
+    "keywords": [
+      "class",
+      "extend",
+      "commonjs",
+      "amd"
+    ],
+    "repo": "jasonwyatt/ancestry.js",
+    "branch": "master",
+    "source": [
+      "ancestry.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jasonwyatt/ancestry.js"
+      }
+    ]
+  },
+  {
+    "name": "cufon",
+    "description": "Fast text replacement with canvas and VML - no Flash or images required.",
+    "version": "1.09i",
+    "homepage": "http://cufon.shoqolate.com/",
+    "keywords": [
+      "font",
+      "canvas",
+      "vml",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "cufon-yui.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/sorccu/cufon/"
+      }
+    ]
+  },
+  {
+    "name": "css3pie",
+    "description": "CSS3 PIE JavaScript edition. Enables rendering of common CSS3 decoration properties in Internet Explorer 6-9.",
+    "version": "1.0beta5",
+    "homepage": "http://css3pie.com",
+    "keywords": [
+      "polyfill",
+      "css3",
+      "ie"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "PIE.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "git@github.com:lojjic/PIE.git"
+      }
+    ]
+  },
+  {
+    "name": "css3finalize",
+    "description": "Skip vendor prefixes",
+    "version": "2.1",
+    "homepage": "https://github.com/codler/jQuery-Css3-Finalize",
+    "keywords": [
+      "css",
+      "css3"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "jquery.css3finalize.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/codler/jQuery-Css3-Finalize"
+      }
+    ]
+  },
+  {
+    "name": "crossroads",
+    "description": "Powerful JavaScript URL routing/dispatch for server-side and client-side applications.",
+    "version": "",
+    "homepage": "http://millermedeiros.github.com/crossroads.js/",
+    "keywords": [
+      "route",
+      "events",
+      "spa"
+    ],
+    "repo": "millermedeiros/crossroads.js",
+    "branch": "master",
+    "source": [
+      "dist/crossroads.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://millermedeiros.github.com/crossroads.js/"
+      }
+    ]
+  },
+  {
+    "name": "coffee-script",
+    "description": "CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.",
+    "version": "1.2.0",
+    "homepage": "http://jashkenas.github.com/coffee-script/",
+    "keywords": [
+      "coffeescript",
+      "compiler",
+      "language",
+      "coffee",
+      "script",
+      "popular"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "coffee-script.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/jashkenas/coffee-script.git"
+      }
+    ]
+  },
+  {
+    "name": "chrome-frame",
+    "description": "Google Chrome Frame is an open source plug-in that seamlessly brings Google Chrome's open web technologies and speedy JavaScript engine to Internet Explorer.",
+    "version": "1.0.2",
+    "homepage": "http://code.google.com/chrome/chromeframe/",
+    "keywords": [
+      "plugin",
+      "plug-in",
+      "chrome",
+      "frame"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "CFInstall.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "http://code.google.com/chrome/chromeframe/"
+      }
+    ]
+  },
+  {
+    "name": "cssclass",
+    "description": "Adds the functions .hasClass, .addClass, .removeClass and .toggleClass to the Element prototype.",
+    "version": "",
+    "homepage": "https://github.com/EarMaster/CSSClass",
+    "keywords": [
+      "css"
+    ],
+    "repo": "EarMaster/CSSClass",
+    "branch": "master",
+    "source": [
+      "CSSClass.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/EarMaster/CSSClass"
+      }
+    ]
+  },
+  {
+    "name": "camanjs",
+    "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
+    "version": "3.1.1",
+    "homepage": "http://camanjs.com/",
+    "keywords": [
+      "html5",
+      "canvas",
+      "image",
+      "filter",
+      "manipulate",
+      "pixel",
+      "effects"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "caman.full.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/meltingice/CamanJS"
+      }
+    ]
+  },
+  {
+    "name": "base64",
+    "description": "`window.btoa` and `window.atob` for browsers which don't provide these functions.",
+    "version": "",
+    "homepage": "https://bitbucket.org/davidchambers/base64.js",
+    "keywords": [
+      "polyfill"
+    ],
+    "repo": "https://bitbucket.org/davidchambers/base64.js/raw/default/base64.js",
+    "branch": "bitbucket.org",
+    "source": [
+      "https://bitbucket.org/davidchambers/base64.js/raw/default/base64.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://bitbucket.org/davidchambers/base64.js"
+      }
+    ]
+  },
+  {
+    "name": "ICanHaz.js",
+    "description": "A clean solution for templating with Mustache.js and jQuery or Zepto",
+    "version": "0.9",
+    "homepage": "http://icanhazjs.com",
+    "keywords": [
+      "templating",
+      "mustache",
+      "jquery",
+      "zepto"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "ICanHaz.min.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/andyet/ICanHaz.js"
+      }
+    ]
+  },
+  {
+    "name": "History.js",
+    "description": "Provides a cross-compatible experience for the History API on all HTML5 Browsers and backwards-compatible one on older ones using a hash-fallback.",
+    "version": "1.7.1",
+    "homepage": "https://github.com/balupton/History.js/",
+    "keywords": [
+      "history",
+      "state",
+      "html5",
+      "onhashchange"
+    ],
+    "repo": "cdnjs/cdnjs",
+    "branch": "master",
+    "source": [
+      "native.history.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/balupton/history.js.git"
+      }
+    ]
+  },
+  {
+    "name": "$script",
+    "description": "An asynchronous JavaScript loader and dependency manager with an astonishingly impressive footprint.",
+    "version": "",
+    "homepage": "https://github.com/ded/script.js",
+    "keywords": [
+      "loader"
+    ],
+    "repo": "ded/script.js",
+    "branch": "master",
+    "source": [
+      "dist/script.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/ded/script.js"
+      }
+    ]
+  },
+  {
+    "name": "$dom",
+    "description": "Selecting, styling, traversing and animating DOM elements.",
+    "version": "",
+    "homepage": "https://github.com/julienw/dollardom",
+    "keywords": [
+      "dom",
+      "events",
+      "animation"
+    ],
+    "repo": "julienw/dollardom",
+    "branch": "master",
+    "source": [
+      "src/dollardom.js"
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/julienw/dollardom"
+      }
+    ]
+  }
+]

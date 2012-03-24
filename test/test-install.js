@@ -6,6 +6,8 @@ var dir = path.join(__dirname, 'libs');
 process.argv = process.argv.concat(['install', 'jquery', 'underscore.js', '-o', dir]);
 
 var gimme = require('..');
+
+gimme.set('prefix', path.join(__dirname, 'fixtures'));
 gimme.start(function(err) {
   assert.ifError(err);
   assert.ok(path.existsSync(path.join(dir, 'jquery.min.js')));
