@@ -9,8 +9,8 @@ process.argv = process.argv.concat(['install', 'jquery', 'underscore.js', '-o', 
 var gimme = require('..');
 
 // remove previous test run
-gimme.utils.rimraf.sync(join(__dirname, 'fixtures/ajax'));
-gimme.utils.rimraf.sync(join(__dirname, 'libs'));
+gimme.utile.rimraf.sync(join(__dirname, 'fixtures/ajax'));
+gimme.utile.rimraf.sync(join(__dirname, 'libs'));
 gimme.set('prefix', join(__dirname, 'fixtures'));
 gimme.start(function(err) {
   assert.ifError(err);
