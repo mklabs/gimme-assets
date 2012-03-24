@@ -1,7 +1,8 @@
 {
   "author": "mklabs",
   "name": "gimme-assets",
-  "description": "Command line helper for cdnjs / microjs libs",
+  "description": "A little, experimental tool to manage web assets from the CLI. Based on cdnjs / microjs libs",
+  "keywords": ["assets", "cli", "microjs"],
   "version": "0.1.1",
   "main": "lib/gimme",
   "bin": {
@@ -9,6 +10,10 @@
   },
   "engines": {
     "node": "0.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mklabs/gimme-assets.git"
   },
   "dependencies": {
     "ronn": "~0.3.8",
