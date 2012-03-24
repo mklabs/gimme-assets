@@ -17,9 +17,6 @@
   },
   "dependencies": {
     "ronn": "~0.3.8",
-    "async": "~0.1.15",
-    "mkdirp": "~0.3.0",
-    "rimraf": "~2.0.1",
     "github-flavored-markdown": "~1.0.1",
     "tabtab": "0.0.2",
     "flatiron": "~0.1.16",

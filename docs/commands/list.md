@@ -37,3 +37,11 @@ When set to other than `0`, switch the list to paginated list based on
 `limit` value. [N]ext, [P]revious or [Q]uit key may be entered paginate
 next, back or quit the program.
 
+### bundle
+
+* Default: false
+* Type: Boolean
+
+When turned on, `list` will only display with `custom=true`, eg.
+packages that were added with `gimme add`
+
