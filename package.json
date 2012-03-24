@@ -20,7 +20,8 @@
     "flatiron": "~0.1.16",
     "nopt": "~1.0.10",
     "director": "~1.0.9-1",
-    "cfg": "0.0.2"
+    "cfg": "0.0.2",
+    "prompt": "~0.1.12"
   },
   "scripts": {
     "install": "cd lib/gimme/fetch && npm install --production",
