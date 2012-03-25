@@ -10,7 +10,7 @@ This command will print to stdout all the packages that are available
 with standard name + description, as well as allowing you to specify
 which package property should be displayed.
 
-It can take a a list of terms, in which case the list is filtered based
+It can take a list of terms, in which case the list is filtered based
 on these.
 
 The `--limit` options let you switch to paginated list based on this
