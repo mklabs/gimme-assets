@@ -1,93 +1,19 @@
 #!/usr/bin/env node
 
-var fs = require('fs'),
-  path = require('path'),
-  nopt = require('nopt'),
-  gimme = require('../'),
-  known = Object.keys(gimme.cmds);
-
-// fancy colors
-require('colors');
-
-var defs = {
-  loglevel: ["silent","win","error","warn","info","verbose","silly"],
-  output: String,
-  help: Boolean,
-  version: Boolean
-};
-
-// use nopt to parse cli options
-var opts = nopt(defs),
-  remain = opts.argv.remain,
-  cmd = remain[0] || 'help';
-
-// output version
-if(opts.version) return console.log(
-  JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8')).version
-);
-
-// output help and return if help flag or no command provided.
-if(opts.help || cmd === 'help') return console.log([
-  '',
-  '  Usage:'.bold,
-  '     gimme [command] [options]',
-  '',
-  '  Commands:'.bold,
-  helpCmds(),
-  '',
-  '  Options:'.bold,
-  '',
-  '    -o, --out <dir>          output directory defaulting to ./js/libs',
-  '    -l, --loglevel <level>   What level of logs to report',
-  '    -v, --version            output program version',
-  '    -h, --help               display help information',
-  ''
-].join('\n'));
-
-if(!gimme.cmds[cmd]) return error(new Error(cmd + ' not a valid command.\n Commands: ' + known.join(' ')));
+var gimme = require('..');
 
 var start = +new Date;
-gimme.load(function(e) {
-  if(e) return error(e);
 
-  gimme.cmds[cmd](opts, function(err) {
-    if(err) return error(err);
-    gimme.log.debug(cmd, 'done in', (+new Date - start) / 1000 + 's');
-    process.exit(0);
-  });
+gimme.on('router::*', gimme.info.bind(gimme.log, 'Running'));
+
+gimme.start(function(err) {
+  if(err) {
+    err.message = 'Error executing ' + gimme.argv.remain.join(' ') + gimme.get('lr') + err.message;
+    gimme.error(gimme.get('debug') ? err.stack : err.message);
+    process.exit(1);
+  }
+
+  if(gimme.running !== 'help' && gimme.get('debug')) gimme.info(gimme.running, 'done in', (+new Date - start) / 1000 + 's');
+  process.exit(0);
 });
 
-// ## Helpers
-function error(err) {
-  if(!(err instanceof Error)) err = new Error(err);
-  var output = err.message || err.stack;
-  output.split('\n').forEach(function(l) {
-    gimme.log.error(l);
-  });
-  process.exit(1);
-}
-
-function helpCmds() {
-  var cmds = gimme.cmds,
-    out = Object.keys(cmds)
-    .filter(function(command) {
-      return cmds[command].description;
-    })
-    .map(function(command) {
-      command = cmds[command].description;
-      return '    gimme ' + pad(command[0], 25) + command[1];
-    }).sort(function(a, b) {
-      var aname = /<name/.test(a),
-        bname = /<name/.test(b);
-
-      if(aname && !bname) return 1;
-      else return -1;
-    });
-
-  return out.join('\n');
-}
-
-function pad(str, ln) {
-  var padding = ln - str.length;
-  return padding > 0 ? str + new Array(padding).join(' ') : str;
-}

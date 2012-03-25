@@ -1,1 +1,4 @@
 node_modules/
+test/libs
+test/fixtures/
+test/css

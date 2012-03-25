@@ -1,26 +1,39 @@
 {
   "author": "mklabs",
   "name": "gimme-assets",
-  "description": "Command line helper for cdnjs / microjs libs",
-  "version": "0.1.0",
+  "description": "A little, experimental tool to manage web assets from the CLI. Based on cdnjs / microjs libs",
+  "keywords": [
+    "assets",
+    "cli",
+    "microjs"
+  ],
+  "version": "0.2.0",
   "main": "lib/gimme",
   "bin": {
     "gimme": "bin/gimme"
   },
   "engines": {
-    "node": "> 0.4"
+    "node": "0.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mklabs/gimme-assets.git"
   },
   "dependencies": {
-    "nopt": "~1.0.10",
     "ronn": "~0.3.8",
-    "async": "~0.1.15",
-    "mkdirp": "~0.3.0",
-    "colors": "~0.6.0-1",
-    "rimraf": "~2.0.1",
-    "gh-fetch": "0.0.1",
-    "tabtab": "0.0.2"
+    "github-flavored-markdown": "~1.0.1",
+    "tabtab": "0.0.2",
+    "flatiron": "~0.1.16",
+    "nopt": "~1.0.10",
+    "director": "~1.0.9-1",
+    "cfg": "0.0.2",
+    "prompt": "~0.1.12",
+    "underscore": "~1.3.1"
   },
   "scripts": {
-    "postuninstall": "node scripts/uninstall"
+    "install": "cd lib/gimme/fetch && npm install --production",
+    "postuninstall": "node scripts/uninstall",
+    "pretest": "rm -rf test/fixtures/",
+    "test": "node test --filter test-api --log"
   }
 }

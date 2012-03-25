@@ -1,2 +1,4 @@
-var path = require('path');
-require('rimraf').sync(path.join(process.env.HOME, '.gimme'));
+var path = require('path'),
+  gimme = require('../');
+
+require('rimraf').sync(path.join(gimme.config.defaults.home, '.gimme'));
