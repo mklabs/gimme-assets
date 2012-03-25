@@ -31,10 +31,6 @@ output to `pbcopy` instead of stdout.
 When `--copy` is turned on, the output is piped to `pbocpy` instead of
 stdout.
 
-### clipboard
-
-Same as `--copy`
-
 ### url
 
 * Default: false
@@ -54,3 +50,10 @@ why you should do with care:
 * https://github.com/h5bp/html5-boilerplate/issues/961
 * https://github.com/paulirish/lazyweb-requests/issues/42
 
+### clipboard
+
+Same as `--copy`
+
+### pbcopy
+
+Same as `--clipboard`
