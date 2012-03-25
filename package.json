@@ -29,6 +29,6 @@
     "install": "cd lib/gimme/fetch && npm install --production",
     "postuninstall": "node scripts/uninstall",
     "pretest": "rm -rf test/fixtures/",
-    "test": "node test --log"
+    "test": "node test --filter test-api --log"
   }
 }
