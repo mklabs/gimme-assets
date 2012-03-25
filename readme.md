@@ -1,6 +1,6 @@
 
 Experimental asset manager, based on [cdnjs](http://www.cdnjs.com/) and
-[microjs](http://microjs.com/)libs.
+[microjs](http://microjs.com/) libs.
 
 ## Description
 
@@ -49,17 +49,30 @@ if that's not enough you can create your own package definition.
 **Commands**
 
 * [add](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/add.md#readme)
+Add a new bundle definition
+
 * [bundle](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/bundle.md#readme)
+Concat and minifiy the given package(s) and local files
+
 * [docs](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/docs.md#readme)
+Tries to open package's documentation using default browser
+
 * [help](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/help.md#readme)
+Shows the appropriate documentation page for the given command
+
 * [html](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/html.md#readme)
+Show HTML snippet to include given package(s)
+
 * [install](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/install.md#readme)
+Installs the given packages
+
 * [list](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/list.md#readme)
+List available packages
+
 * [readme](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/readme.md#readme)
+Show the appropriate documentation manpage generated from readme file
 
-**creating a new command**
-
-* [commands](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands.md#readme)
+* [commands](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands.md#readme) creating a new command
 
 ## Install
 
