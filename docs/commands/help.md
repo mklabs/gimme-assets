@@ -1,11 +1,11 @@
-gimme-html(1) - Show HTML snippet to include given package(s)
-=============================================================
+gimme-help(1)- Shows the appropriate documentation page for the given command
+=============================================================================
 
-    gimme html <lib, ...>
+    gimme help <topic>
 
 This command will print to stdout all the packages url with surrounding
 `<script>` tags, unless `--url` was given in which case only the src
-value is displayed. 
+value is displayed.
 
 It can take a list of packages, in which case the return output is
 composed of the guessed url, in the order they were added in the command
@@ -56,3 +56,4 @@ Same as `--copy`
 ### pbcopy
 
 Same as `--clipboard`
+

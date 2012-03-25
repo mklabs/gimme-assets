@@ -2,7 +2,11 @@
   "author": "mklabs",
   "name": "gimme-assets",
   "description": "A little, experimental tool to manage web assets from the CLI. Based on cdnjs / microjs libs",
-  "keywords": ["assets", "cli", "microjs"],
+  "keywords": [
+    "assets",
+    "cli",
+    "microjs"
+  ],
   "version": "0.1.1",
   "main": "lib/gimme",
   "bin": {
