@@ -1,123 +1,75 @@
 
-Experimental asset manager, based on [cdnjs](https://github.com/cdnjs/cdnjs) libs.
+Experimental asset manager, based on [cdnjs](http://www.cdnjs.com/) and
+[microjs](http://microjs.com/)libs.
 
 ## Description
 
 gimme is a little, experimental tool to manage web assets from the CLI.
 
+It comes with 250+ available package to install right off the bat, and
+if that's not enough you can create your own package definition.
+
 ## Usage
 
-    Usage:
-       gimme [command] [options]
+
+    Experimental asset manager for cdnjs / microjs libs.
+
+    Usage: gimme <cmd> [options]
 
     Commands:
-      gimme completion              Setup tab completion
-      gimme list                    List available packages
-      gimme html                    Show HTML snippets to include package
-      gimme readme <name>           Show the appropriate documentation manpage generated from readme file
-      gimme docs <name>             Tries to open package's documentation using default browser
-      gimme install <name ...>      Installs the lib(s) <name ...>
+      add                     Add a new bundle definition
+      bundle                  Concat and minifiy the given package(s) and local files
+      completion              Setup tab completion
+      docs                    Tries to open package's documentation using default browser
+      help                    Shows the appropriate documentation page for the given command
+      html                    Show HTML snippet to include given package(s)
+      install                 Installs the lib(s) <name ...>
+      list                    List available packages
+      readme                  Show the appropriate documentation manpage generated from readme file
 
     Options:
+     -l, --loglevel           What level of log to report
+     -o, --output             Output directory, defaults to ./js/libs
+     -v, --version            Output program version
+     -d, --debug              Slighly more verbose error output when set to true, defaults false
+     -ll, --limit             Maximum number of results to output with paginated list
+     -h, --help               Display help information
+     --props                  Optional list of package properties to output with list
+     --usage                  Display usage for given subcommand
+     --viewer                 The program to use to view help content, if `markdown` then output to stdout
+     --bundle                 When turned on, list will only display added bundles with `gimme add`
+     --url                    When turned on, html command will output url without surrounding <script>
+     -clipboard, --copy       When turned on, html command will pipe the output to pbocpy instead of stdout
+     --nocompress             Disable minification for js files with `bundle` command
 
-      -o, --out <dir>          output directory defaulting to ./js/libs
-      -l, --loglevel <level>   What level of logs to report
-      -v, --version            output program version
-      -h, --help               display help information
+## Documentation
 
-## Synopsis
+* [Usage](https://github.com/mklabs/gimme-assets/blob/dev/docs/usage.md)
 
-**install new packages**
+**Commands**
 
-    $ gimme install underscore.js backbone.js jquery
-    log   - Installing... underscore.js backbone.js jquery
-    log   - all done
-    debug - install done in 1.348s
+* [add](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/add.md#readme)
+* [bundle](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/bundle.md#readme)
+* [docs](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/docs.md#readme)
+* [help](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/help.md#readme)
+* [html](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/html.md#readme)
+* [install](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/install.md#readme)
+* [list](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/list.md#readme)
+* [readme](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands/readme.md#readme)
 
-**open the package homepage**
+**creating a new command**
 
-using default browser
+* [commands](https://github.com/mklabs/gimme-assets/blob/dev/docs/commands.md#readme)
 
-    gimme docs socket.io
+## Install
 
-**view project's readme as manpage**
+    npm install gimme-assets -g
 
-    gimme readme socket.io
+## Tests [![Build Status](https://secure.travis-ci.org/mklabs/gimme-assets.png?branch=master)](http://travis-ci.org/mklabs/gimme-assets)
 
-**list all available packages**
+    npm test
 
-    gimme list
+Create a new test
 
-## commands
+    node test --create testname
 
-### gimme completion
-
-    gimme completion
-    gimme completion install
-
-Enables tab-completion in gimme commands.
-
-The synopsis above loads the completions and add it to your ~/.bashrc or
-~/.zshrc, making the completions available everywhere. `gimme
-completion` alone output the completion bash script, `gimme completion
-install` is the equivalent of running `gimme completion >> ~/.bashrc
-(or ~/.zshrc)`
-
-### gimme readme
-
-    gimme readme <name>
-
-This command tries to guess at the likely location of a repository's
-readme, and then tries to generate a manpage using [ronnjs](https://github.com/kapouer/ronnjs).
-
-
-### gimme docs
-
-    gimme docs <name>
-
-This command tries to guess at the likely location of an asset's
-documentation URL, and then tries to open it using the default browser.
-
-### todos
-
-#### gimme update
-
-    gimme update
-
-Refresh the data.js cache in `$HOME/.gimme`
-
-#### gimme uninstall
-
-    gimme uninstall (with no args in a package dir)
-    gimme uninstall <name ...>
-
-Same usage as `gimme install`, but removes the locally installed
-(defaults in `./js/libs`)
-
-#### gimme search
-
-    gimme search
-    gimme search <tag ...>
-
-Search available assets with optional list of tags.
-
-## Creating a new command
-
-> TODO
-
-#### gimme html
-
-    gimme html <name ...>
-
-Would show the html snippet to include given package. Defaults returns
-the html snippet to include the cdnjs libs with local fallback.
-
-## install
-
-    git clone git://github.com/mklabs/gimme-assets.git
-    cd gimme-assets
-    npm install && npm link
-
-Or
-
-    npm install https://github.com/mklabs/gimme-assets/tarball/master -g
