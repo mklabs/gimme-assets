@@ -65,7 +65,7 @@ var fs = require('fs'),
   path = require('path'),
   spawn = require('child_process').spawn;
 
-var testTimeout = 8000,
+var testTimeout = 15000,
   failed = [],
   success = [],
   pathPrefix = __dirname,
@@ -114,7 +114,7 @@ function runTest(test, o, callback) {
   child.on('exit', function (exitCode) {
     clearTimeout(killTimeout);
 
-    console.log('  ' + (exitCode ? '✔ ' : '✗ ') + ' ' + path.basename(test));
+    console.log('  ' + (exitCode ? '✗' : '✔') + ' ' + path.basename(test));
 
     (exitCode ? failed : success).push(test);
 
