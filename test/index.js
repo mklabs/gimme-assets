@@ -1,6 +1,14 @@
 #!/usr/bin/env node
 
 //
+// In your package.json file:
+//
+//      "scripts": {
+//        "test": "node test --log"
+//      }
+//
+
+//
 // Test runner - coming and derived from tako's runner, itself
 // contributed by @mmalecki ->
 // https://raw.github.com/mikeal/tako/master/tests/run.js
@@ -16,8 +24,7 @@
 // I more and more tends to adopt the same approach. Being a huge fan of
 // vows, using it in almost every test case I had to setup, sometimes it
 // just feel good to use no test framework at all.
-
-
+//
 //
 // ### Usage
 //
@@ -39,11 +46,19 @@
 //
 //    npm test --filter debug-
 //
-// The `log` option let you log stdout / stderr from assertion test
+// The `--log` option let you log stdout / stderr from assertion test
 // files.
 //
-// The `over` option let you run each assertion files sharing the same
-// file descriptor as the current process.
+// The `--over` option let you run each assertion files sharing the same
+// file descriptors as the current process.
+//
+//
+// ### Create
+//
+// The `--create` flag is there to setup basic test scaffolding, nothing
+// fancy.
+//
+//    npm test --create test-foobar
 //
 
 var fs = require('fs'),
@@ -53,18 +68,28 @@ var fs = require('fs'),
 var testTimeout = 8000,
   failed = [],
   success = [],
-  pathPrefix = __dirname;
+  pathPrefix = __dirname,
+  lf = process.platform === 'win32' ? '\r\n' : '\n';
+
+var cross = '   \033[31m✗ \033[39m';
+
+var errs = {
+  notests: cross + 'No test to run buddy',
+  create: cross + 'Please specifiy a test name with --create',
+  exists: function(file) { return cross + 'File ' + file + ' already exists'; },
+  help: lf + '    Run `node test --create`' + lf
+};
+
+var pkg = require(path.join(__dirname, '../package.json'));
 
 var opts = npmConfig();
+if(opts.create) return create(opts);
 var filter = new RegExp('^' + (opts.filter || 'test-'));
 runTests(fs.readdirSync(pathPrefix).filter(function (test) {
   return filter.test(test);
 }));
 
 
-//
-// Test helpers
-//
 function runTest(test, o, callback) {
   var child = spawn(process.execPath, [ path.join(__dirname, test) ], o),
     over = !!opts.over,
@@ -89,7 +114,7 @@ function runTest(test, o, callback) {
   child.on('exit', function (exitCode) {
     clearTimeout(killTimeout);
 
-    console.log('  ' + (exitCode ? '✘' : '✔') + ' ' + path.basename(test));
+    console.log('  ' + (exitCode ? '✔ ' : '✗ ') + ' ' + path.basename(test));
 
     (exitCode ? failed : success).push(test);
 
@@ -107,7 +132,7 @@ function runTests(tests) {
 
   console.log('Running tests:');
 
-  if(!tests.length) return console.log('No test to run buddy');
+  if(!tests.length) return console.log(errs.notests + errs.help);
 
   var spawnOpts = {};
   if(opts.over) spawnOpts.customFds = [0, 1, 2];
@@ -120,7 +145,7 @@ function runTests(tests) {
       console.log('  ' + failed.length + '\tfailed tests');
 
       if(failed.length) console.log(failed.map(function(f) {
-        return '    ✘ ' + f;
+        return cross + f;
       }).join('\n'));
       console.log();
 
@@ -184,4 +209,59 @@ function npmConfig(obj, filter) {
   })(opts, args);
 
   return opts;
+}
+
+// **create** initializes an assertion file., only if it not exists yet.
+function create(opts, cb) {
+  cb = cb || function(e) { e && console.error(e.message); };
+
+  var value = opts.create === 'true' ? true : opts.create;
+  if(value === true) return cb(new Error(errs.create));
+  value = path.extname(value) ? value : value + '.js';
+  value = value.replace(/\s/g, '-');
+
+  // append a `test-` prefix
+  var prefix = /^test\-/.test(value);
+  value = prefix ? value : 'test-' + value;
+
+  var file = path.join(__dirname, value);
+  console.log('Create', file);
+
+  fs.stat(file, function(e) {
+    if(!e) return cb(new Error(errs.exists(file)));
+    var ws = fs.createWriteStream(file);
+
+    pkg.filepath = file;
+    pkg.filename = value.replace(path.extname(value), '');
+    testTemplate(pkg).split(lf).forEach(function(line) {
+      ws.write(line + lf);
+    });
+
+    ws.end();
+    console.log('Done', file, 'created');
+  });
+}
+
+
+function testTemplate(data) {
+  data = data || {};
+
+  var lines = [
+    '',
+    "var fs = require('fs'),",
+    "  path = require('path'),",
+    "  assert = require('assert'),",
+    "  $name = require('../');",
+    "",
+    "//",
+    "// $name - $description",
+    "// $filename",
+    ""
+  ].join(lf);
+
+  var reg = /[^\w\d]/g;
+  return lines
+    .replace(/\$name/g, data.name.charAt(0).toUpperCase() + data.name.slice(1))
+    .replace(/\$description/g, data.description)
+    .replace(/\$filename/g, '*' + (data.filename || '').replace(reg, '') + '*');
 }
